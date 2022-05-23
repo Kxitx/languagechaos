@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse in" aria-expanded="true" id="homeSubmenu">
+                        <li class="active">
+                            <a href="">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+        <h3 class="title-page">Grammar tables</h3>
+        <p>Here you find some helpful tables collected on one page.</p>
+        
+        <h2>Pronouns</h2>
+        <h4>Personal Pronouns</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3"><b>Akkusativ</b> (direct Object)</div>
+                <div class="col-sm-4"><b>Dativ</b> (indirect object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>1st (sg.)</b></div>
+                <div class="col-sm-3">ich <i>(I)</i></div>
+                <div class="col-sm-3">mich <i>(me)</i></div>
+                <div class="col-sm-4">mir <i>(me)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2nd (sg.)</b></div>
+                <div class="col-sm-3">du <i>(you)</i></div>
+                <div class="col-sm-3">dich <i>(you)</i></div>
+                <div class="col-sm-4">dir <i>(you)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2nd (sg., formal)</b></div>
+                <div class="col-sm-3">Sie <i>(you)</i></div>
+                <div class="col-sm-3">Sie <i>(you)</i></div>
+                <div class="col-sm-4">Ihnen <i>(you)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>3rd (sg.)</b></div>
+                <div class="col-sm-3">er <i>(he)</i><br>sie <i>(she)</i><br>es <i>(it)</i></div>
+                <div class="col-sm-3">ihn <i>(him)</i><br>sie <i>(her)</i><br>es <i>(it)</i></div>
+                <div class="col-sm-4">ihm <i>(him)</i><br>ihr <i>(her)</i><br>ihm <i>(it)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>1st (pl.)</b></div>
+                <div class="col-sm-3">wir <i>(we)</i></div>
+                <div class="col-sm-3">uns <i>(us)</i></div>
+                <div class="col-sm-4">uns <i>(us)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2nd (pl.)</b></div>
+                <div class="col-sm-3">ihr <i>(you)</i></div>
+                <div class="col-sm-3">euch <i>(you)</i></div>
+                <div class="col-sm-4">euch <i>(you)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2nd (pl., formal)</b></div>
+                <div class="col-sm-3">Sie <i>(you)</i></div>
+                <div class="col-sm-3">Sie <i>(you)</i></div>
+                <div class="col-sm-4">Ihnen <i>(you)</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>3rd (pl.)</b></div>
+                <div class="col-sm-3">sie <i>(they)</i></div>
+                <div class="col-sm-3">sie <i>(them)</i></div>
+                <div class="col-sm-4">ihnen <i>(them)</i></div>
+            </div>
+        </div>
+        <br>
+
+        <h4>Reflexive Pronouns</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+                <div class="col-sm-6"><b>Dativ</b> (Indirect Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ich</b></div>
+                <div class="col-sm-3">mich</div>
+                <div class="col-sm-6">mir</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>du</b></div>
+                <div class="col-sm-3">dich</div>
+                <div class="col-sm-6">dir</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>er/sie/es</b></div>
+                <div class="col-sm-3">sich</div>
+                <div class="col-sm-6">sich</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>wir</b></div>
+                <div class="col-sm-3">uns</div>
+                <div class="col-sm-6">uns</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ihr</b></div>
+                <div class="col-sm-3">euch</div>
+                <div class="col-sm-6">euch</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>sie</b></div>
+                <div class="col-sm-3">sich</div>
+                <div class="col-sm-6">sich</div>
+            </div>
+        </div>
+        <br>
+
+        <h2>Articles</h2>
+        <h4>Definite Articles</h4>
+        <p>Singular:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+                <div class="col-sm-3"><b>Dativ</b> (Indirect Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Masculine</b></div>
+                <div class="col-sm-3">der</div>
+                <div class="col-sm-3">den</div>
+                <div class="col-sm-3">dem</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Feminine</b></div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">der</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Neuter</b></div>
+                <div class="col-sm-3">das</div>
+                <div class="col-sm-3">das</div>
+                <div class="col-sm-3">dem</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Plural:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+                <div class="col-sm-3"><b>Dativ</b> (Indirect Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Masculine</b></div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">den</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Feminine</b></div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">den</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Neuter</b></div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">die</div>
+                <div class="col-sm-3">den</div>
+            </div>
+        </div>
+        <br>
+
+        <h4>Indefinite Articles</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+                <div class="col-sm-3"><b>Dativ</b> (Indirect Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Masculine</b></div>
+                <div class="col-sm-3">ein</div>
+                <div class="col-sm-3">einen</div>
+                <div class="col-sm-3">einem</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Feminine</b></div>
+                <div class="col-sm-3">eine</div>
+                <div class="col-sm-3">eine</div>
+                <div class="col-sm-3">einer</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Neuter</b></div>
+                <div class="col-sm-3">ein</div>
+                <div class="col-sm-3">ein</div>
+                <div class="col-sm-3">einem</div>
+            </div>
+        </div>
+        <br>
+
+        <h2>Conjugation</h2>
+        <h4>Present tense</h4>
+        <p>Regular conjugation pattern:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">Ending</div>
+                <div class="col-sm-6">lernen (<i>to learn</i>), stem: <b>lern-</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Singular</b></div>
+                <div class="col-sm-3">-<b>e</b></div>
+                <div class="col-sm-3">ich lern<b>e</b></div>
+                <div class="col-sm-3"><i>I Learn</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Singular</b></div>
+                <div class="col-sm-3">-<b>st</b></div>
+                <div class="col-sm-3">du lern<b>st</b></div>
+                <div class="col-sm-3"><i>you learn</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Singular</b></div>
+                <div class="col-sm-3">-<b>t</b></div>
+                <div class="col-sm-3">er/sie/es lern<b>t</b></div>
+                <div class="col-sm-3"><i>he/she/it learns</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Plural</b></div>
+                <div class="col-sm-3">-<b>en</b></div>
+                <div class="col-sm-3">wir lern<b>en</b></div>
+                <div class="col-sm-3"><i>we Learn</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Plural</b></div>
+                <div class="col-sm-3">-<b>t</b></div>
+                <div class="col-sm-3">ihr lern<b>t</b></div>
+                <div class="col-sm-3"><i>you (pl.) learn</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Plural</b></div>
+                <div class="col-sm-3">-<b>en</b></div>
+                <div class="col-sm-3">sie lern<b>en</b></div>
+                <div class="col-sm-3"><i>they learn</i></div>
+            </div>
+        </div>
+        <br>
+
+        <p>Some irregular patterns which occur often:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Example Verb</b></div>
+                <div class="col-sm-6"><b>Conjugation</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">verb stem ends in s, ß, x or z</div>
+                <div class="col-sm-3">heißen (<i>to be called</i>)</div>
+                <div class="col-sm-6">The <i>s</i> in the 2. Person Singular disappears: <i>du heißt</i> instead of *<i>du heißst</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">verb stem ends in t, d, m or n (<i>except for if it ends in the consonant clusters lm, ln, rm or rn</i>)</div>
+                <div class="col-sm-3">atmen (<i>to breathe</i>)</div>
+                <div class="col-sm-6">2. Person Singular, 3. Person Singular & 2 Person Plural get an additional <i>e</i> to make it pronouncable: <i>du atmest, er atmet, ihr atmet</i> instead of *<i>du atmst, er atmt, iht atmt</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">verbs which do not end in -en</div>
+                <div class="col-sm-3">lächeln (<i>to smile</i>)</div>
+                <div class="col-sm-6">Forms which normally get an <i>-en</i> just get a <i>-n</i>, and in the 1. Person Singular one <i>e</i> disappears: <i>ich lächle, wir lächeln, sie lächeln</i> instead of *<i>ich lächele, wir lächelen, sie lächelen</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">vowel change e -> i (not all verbs do this!)</div>
+                <div class="col-sm-3">helfen (<i>to help</i>), essen (<i>to eat</i>), geben (<i>to give</i>)</div>
+                <div class="col-sm-6">2. & 3. Person Singular have a vowel change: <i>du hilft, er hilft</i> instead of *<i>du helfst, er helft</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">vowel change e -> ie (not all verbs do this!)</div>
+                <div class="col-sm-3">sehen (<i>to see</i>), lesen (<i>to read</i>)</div>
+                <div class="col-sm-6">2. & 3. Person Singular have a vowel change: <i>du siehst, er sieht</i> instead of *<i>du sehst, er seht</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">vowel change a -> ä & au -> äu (not all verbs do this!)</div>
+                <div class="col-sm-3">schlafen (<i>to sleep</i>), fahren (<i>to drive</i>), laufen (<i>to walk</i>)</div>
+                <div class="col-sm-6">2. & 3. Person Singular have a vowel change: <i>du schläfst, er schläft</i> instead of *<i>du schlafst, er schlaft</i></div>
+            </div>
+        </div>
+        <br>
+        <p>Important irregular verbs:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5"><b>sein</b> (to be)</b></div>
+                <div class="col-sm-5"><b>haben</b> (to have), <b>Verb stem: hab-</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>1. Person Singular</b></div>
+                <div class="col-sm-2">ich <b>bin</b></div>
+                <div class="col-sm-3"><i>I am</i></div>
+                <div class="col-sm-2">ich hab<b>e</b></div>
+                <div class="col-sm-3"><i>I have</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2. Person Singular</b></div>
+                <div class="col-sm-2">du <b>bist</b></div>
+                <div class="col-sm-3"><i>you are</i></div>
+                <div class="col-sm-2">du <span class="red">ha<b>st</b></span></div>
+                <div class="col-sm-3"><i>you have</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>3. Person Singular</b></div>
+                <div class="col-sm-2">er/sie/es <b>ist</b></div>
+                <div class="col-sm-3"><i>he/she/it is</i></div>
+                <div class="col-sm-2">er/sie/es <span class="red">ha<b>t</b></span></div>
+                <div class="col-sm-3"><i>he/she/it has</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>1. Person Plural</b></div>
+                <div class="col-sm-2">wir <b>sind</b></div>
+                <div class="col-sm-3"><i>we are</i></div>
+                <div class="col-sm-2">wir hab<b>en</b></div>
+                <div class="col-sm-3"><i>we have</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>2. Person Plural</b></div>
+                <div class="col-sm-2">ihr <b>seid</b></div>
+                <div class="col-sm-3"><i>you (pl.) are</i></div>
+                <div class="col-sm-2">ihr hab<b>t</b></div>
+                <div class="col-sm-3"><i>you have</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2"><b>3. Person Plural</b></div>
+                <div class="col-sm-2">sie <b>sind</b></div>
+                <div class="col-sm-3"><i>they are</i></div>
+                <div class="col-sm-2">sie hab<b>en</b></div>
+                <div class="col-sm-3"><i>they have</i></div>
+            </div>
+        </div>
+        <br>
+
+        <h2>Adjective</h2>
+        <h4>After Definite Article</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-2"><b>masculine</b></div>
+                <div class="col-sm-2"><b>feminine</b></div>
+                <div class="col-sm-2"><b>neuter</b></div>
+                <div class="col-sm-3"><b>plural</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-2">der schwarz<b>e</b> Hund</div>
+                <div class="col-sm-2">die schwarz<b>e</b> Katze</div>
+                <div class="col-sm-2">das schwarz<b>e</b> Schaf</div>
+                <div class="col-sm-3">die schwarz<b>en</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-2">den schwarz<b>en</b> Hund</div>
+                <div class="col-sm-2">die schwarz<b>e</b> Katze</div>
+                <div class="col-sm-2">das schwarz<b>e</b> Schaf</div>
+                <div class="col-sm-3">die schwarz<b>en</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-2">dem schwarz<b>en</b> Hund</div>
+                <div class="col-sm-2">der schwarz<b>en</b> Katze</div>
+                <div class="col-sm-2">dem schwarz<b>en</b> Schaf</div>
+                <div class="col-sm-3">den schwarz<b>en</b> Hunden</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Genitive)</div>
+                <div class="col-sm-2">des schwarz<b>en</b> Hundes</div>
+                <div class="col-sm-2">der schwarz<b>en</b> Katze</div>
+                <div class="col-sm-2">des schwarz<b>en</b> Schafes</div>
+                <div class="col-sm-3">der schwarz<b>en</b> Hunde</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Words which also trigger these endings: <i>dieser</i> (this), <i>jeder</i> (every), <i>jener</i> (that), <i>mancher</i> (some), <i>welcher</i> (which) and, only in the plural forms: <i>alle</i> (all), <i>solche</i> (such), <i>keine</i> (no), possessive pronouns like <i>meine</i> (my), ...</p>
+
+        <h4>After Indefinite Article</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-3"><b>masculine</b></div>
+                <div class="col-sm-3"><b>feminine</b></div>
+                <div class="col-sm-3"><b>neuter</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3">ein schwarz<b>er</b> Hund</div>
+                <div class="col-sm-3">eine schwarz<b>e</b> Katze</div>
+                <div class="col-sm-3">ein schwarz<b>es</b> Schaf</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-3">einen schwarz<b>en</b> Hund</div>
+                <div class="col-sm-3">eine schwarz<b>e</b> Katze</div>
+                <div class="col-sm-3">ein schwarz<b>es</b> Schaf</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-3">einem schwarz<b>en</b> Hund</div>
+                <div class="col-sm-3">einer schwarz<b>en</b> Katze</div>
+                <div class="col-sm-3">einem schwarz<b>en</b> Schaf</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Genitive)</div>
+                <div class="col-sm-3">eines schwarz<b>en</b> Hundes</div>
+                <div class="col-sm-3">einer schwarz<b>en</b> Katze</div>
+                <div class="col-sm-3">eines schwarz<b>en</b> Schafes</div>
+            </div>
+        </div>
+        <br>
+        <p>Words which also trigger these endings: all singular possesive pronouns, the singular form of <i>kein</i> (no)</p>
+
+        <h4>Without Article</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-2"><b>masculine</b></div>
+                <div class="col-sm-2"><b>feminine</b></div>
+                <div class="col-sm-2"><b>neuter</b></div>
+                <div class="col-sm-3"><b>plural</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-2">schwarz<b>er</b> Hund</div>
+                <div class="col-sm-2">schwarz<b>e</b> Katze</div>
+                <div class="col-sm-2">schwarz<b>es</b> Schaf</div>
+                <div class="col-sm-3">schwarz<b>e</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-2">schwarz<b>en</b> Hund</div>
+                <div class="col-sm-2">schwarz<b>e</b> Katze</div>
+                <div class="col-sm-2">schwarz<b>es</b> Schaf</div>
+                <div class="col-sm-3">schwarz<b>e</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-2">schwarz<b>em</b> Hund</div>
+                <div class="col-sm-2">schwarz<b>en</b> Katze</div>
+                <div class="col-sm-2">schwarz<b>em</b> Schaf</div>
+                <div class="col-sm-3">schwarz<b>en</b> Hunden</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Genitive)</div>
+                <div class="col-sm-2">schwarz<b>en</b> Hundes</div>
+                <div class="col-sm-2">schwarz<b>er</b> Katze</div>
+                <div class="col-sm-2">schwarz<b>en</b> Schafes</div>
+                <div class="col-sm-3">schwarz<b>er</b> Hunde</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Words which also trigger these endings: <i>etwas</i> (a bit), <i>mehr</i> (more), <i>manch</i> (many a), <i>solch</i> (such), <i>viel</i> (much), <i>wenig</i> (little) and most number adjectives.</p>
+        
+        <h4>Comparisons</h4>
+        <br>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-4"><b>Adjective</b></div>
+                <div class="col-sm-4"><b>Comparative</b></div>
+                <div class="col-sm-4"><b>Superlative</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-4">schön (beautiful)</div>
+                <div class="col-sm-4">schön<b>er</b></div>
+                <div class="col-sm-4">am schön<b>sten</b> | der/die/das schön<b>ste</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-4">hübsch (pretty)</div>
+                <div class="col-sm-4">hübsch<b>er</b></div>
+                <div class="col-sm-4">am hübsch<b>esten</b> | der/die/das hübsch<b>este</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-4">groß (big)</div>
+                <div class="col-sm-4">größ<b>er</b></div>
+                <div class="col-sm-4">am größ<b>sten</b> | der/die/das größ<b>ste</b></div>
+            </div>
+        </div>
+
+        <p><b>Note:</b> Some adjectives get an Umlaut in these forms (see last example in the table). Adjectives ending in -d, -ß, -sch, -t, -tz, -x and -z get an <i>-e</i> to make these forms pronouncable (see second example).</p>
+
+</div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

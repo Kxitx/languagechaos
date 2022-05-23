@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse" id="homeSubmenu" aria-expanded="false">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled in" aria-expanded="true" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li class="active">
+                            <a href="">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+
+        <div class="container-fluid">
+            <h3 class="title-page" style="margin-bottom:0px">Chapter 1 - Kaltxì!</h3>
+            <p><b>Topics:</b> The word »ma«, the verb »lu«, the free word order</p>
+            <br>
+            <div class="container-fluid terms">
+                <p><b>Verb</b> - “Doing word”, words which describe an action, examples: to eat, to sit, to sleep</p>
+                <p><b>Noun</b> - “Name word”, words which describe things, creatures, places etc., examples: bird, house, luck</p>
+                <p><b>Adjective</b> - Words which describe attributes of a noun, examples: big, blue, funny</p>
+                <p><b>Dative</b> - Grammatical case, indirect object - to whom?</p>
+            </div>
+
+            <h2>Text</h2>
+            <div class="container-fluid">
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Kaltxì ma Ninat! Ngaru lu fpom srak?<br><i>Hello Ninat! How are you?</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Ninat:</b></div>
+                    <div class="col-sm-11">Kaltxì! Srane, ngaru tut?<br><i>Hello! I’m fine, and you?</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Srane, oeru lu fpom. Oe lu taronyu set!<br><i>I’m fine. I am a hunter now!</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Ninat:</b></div>
+                    <div class="col-sm-11">Fì’u lu sìltsan! Kìyevame, ma Peyral.<br><i>This is good! Goodbye Peyral.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Kìyevame, Eywa ngahu.<br><i>See you, Eywa be with you.</i></div>
+                </div>
+            </div>
+            <br>
+            <h2>Grammar</h2>
+            <h4>The Word »ma«</h4>
+            <p>If you look at the first sentence of the text, there is one thing which might seem strange at first glancet: »Kaltxì ma Ninat!« is translated as »Hello Ninat!«. Kaltxì means Hello - But what is this ma?</p>
+            <p>The English language doesn’t have a literal translation for this word. Ma shows that you are addressing someone directly, it is comparable with the @ sign in a chat. So you could translate the sentence also as »@Ninat: Hello!«</p>
+            <p>Unlike @ in a chat, ma is not optional when you are addressing someone. So while in English you can always just write »Hello Ninat!« instead of »@ Ninat: Hello!«, you cannot leave out the ma while writing or speaking in Na’vi.</p>
+             
+            <br>
+            <h4>The Verb »lu«</h4>
+            <p>Lu is translated in the dictionary as to be. That Verb can be used in various different ways and changes its meaning slightly depending on how you use it.</p>
+            <p class="subsubtitle"><b>1. Equality</b></p>
+            <p>Like the English to be, the Na’vi lu can work like a equality sign. A noun can be equated with another noun or with an adjective. Let’s take a look at two sentences from the dialog:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe lu taronyu.</b></div>
+                    <div class="col-sm-9"><b>I am a hunter.</b> (I = hunter)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Fì'u lu sìltsan.</b></div>
+                    <div class="col-sm-9"><b>This is good.</b> (This = good)</div>
+                </div>
+            </div>
+            <br>
+            
+            <p class="subsubtitle"><b>2. To have</b></p>
+            <p>Na’vi doesn’t have a verb to express possession. Instead, the Verb to have is translated with lu and the dative case -r(u)/ur:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe<font class ="marked">ru</font> lu fpom.</b></div>
+                    <div class="col-sm-9"><b>To me there is wellbeing. -> I have wellbeing</b> (Idiomatic phrase for I’m fine)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Nga<font class ="marked">ru</font> lu puk.</b></div>
+                    <div class="col-sm-9"><b>To you there is a book. -> You have a book.</b></div>
+                </div>
+            </div>
+            <p>So instead of I have something, the Na’vi say something is to me.</p>
+            <p>How the dative case looks depends on the letter with which the word it is attached to ends:</p>
+            <div class="container-fluid learning">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>After consonant:</b></div>
+                    <div class="col-sm-9"><b>-ur</b> (after ‘, <b>-ru</b> is also possible)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>After vowel:</b></div>
+                    <div class="col-sm-9"><b>-r(u)</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>After diphthong:</b></div>
+                    <div class="col-sm-9"><b>-ur/-ru</b></div>
+                </div>
+            </div>
+            <p>The dative can be used for many more things, which is topic of chapter 6.</p>
+
+            <p class="subsubtitle"><b>3. Existence</b></p>
+            <p>Lastly, lu can also be used to express the existence of something. In such cases it can be translated as There are/there is:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Lu ikran.</b></div>
+                    <div class="col-sm-9"><b>There is an ikran.</b></div>
+                </div>
+            </div>
+
+            <br>
+            <h4>The free Word Order</h4>
+            <p>Till now, most sentences you saw in this document had a normal looking word order from an English point of view. But in Na’vi, you don’t have to stick to this order! There are a few rules, but outside that set of rules, words can go in any order:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe lu taronyu.</b></div>
+                    <div class="col-sm-3"><b>Oe taronyu lu.</b></div>
+                    <div class="col-sm-6"><b>I am a hunter.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Lu oe taronyu.</b></div>
+                    <div class="col-sm-9"><b>Lu taronyu oe.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Taronyu oe lu.</b></div>
+                    <div class="col-sm-9"><b>Taronyu lu oe.</b></div>
+                </div>
+            </div>
+            <p>All six versions of the sentence mean the same. Which word order you use is completely up to you! But if you want to emphasize a word you can put it at the end of the sentence:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe lu taronyu.</b></div>
+                    <div class="col-sm-9"><b>I am a <u>hunter</u>.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe taronyu lu.</b></div>
+                    <div class="col-sm-9"><b>I <u>am</u> a hunter.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Taronyu lu oe.</b></div>
+                    <div class="col-sm-9"><b><u>I</u> am a hunter.</b></div>
+                </div>
+            </div>
+            <p>Important: This change in stress is very slight, especially in written Na’vi where it can’t be supported by the tone of the voice. I highly recommend using a wide variety of word orders when practicing Na’vi since that will make you familiar with the concept of free word order!</p>
+            <p>Also keep in mind that you can only move around words freely within the grammar rules you learned. For example the word »ma« you learned about at the beginning of the chapter always has to preceed the person it belongs to. During this Na'vi course you will learn all important rules you have to keep in mind, but as long as you make sure that you follow these rules you can play around with the word order as much as you like.</p>
+
+            <br>
+            <h4>Summary</h4>
+            <p class="subsubtitle"><b>ma</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Kaltxì ma Ninat!</b></div>
+                    <div class="col-sm-9"><b>Hello, @Ninat!</b></div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>usage of lu</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Lu ioang.</b></div>
+                    <div class="col-sm-9"><b>There is an animal.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ioang lu taronyu.</b></div>
+                    <div class="col-sm-9"><b>The animal is a hunter.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Nga<font class ="marked">ru</font> lu ioang.</b></div>
+                    <div class="col-sm-9"><b>You have an animal.</b></div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>free word order</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>Oe lu taronyu. = Oe taronyu lu. = Taronyu lu oe. = Taronyu oe lu. = Lu oe taronyu. = Lu taronyu oe.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>= I am a hunter.</b></div>
+                </div>
+            </div>
+            <br>
+            <h2>Exercises</h2>
+            <h4>1. Reading</h4>
+            <p>Read out aloud the dialog. Concentrate on pronouncing every word precisely, it is ok to be slow! If possible, search for someone to read together with you, for example in the Kelutral Discord server.</p>
+
+            <h4>2. Translate the sentences to English</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Ikran lu taronyu. <span class="spoiler">The ikran is a hunter.</span></li>
+                <li class="list-group-item">b) Ikran lu. <span class="spoiler">There is an ikran.</span></li>
+                <li class="list-group-item">c) Poru lu ikran. <span class="spoiler">He/She has an ikran.</span></li>
+                <li class="list-group-item">d) Po lu ikranur.  <span class="spoiler">The ikran has him/her.</span></li>
+                <li class="list-group-item">e) Ma Peyral, lu ioang! <span class="spoiler">Peyral, there is an animal!</span></li>
+                <li class="list-group-item">f) Taronyu lu sìltsan. <span class="spoiler">The hunter is good.</span></li>
+                <li class="list-group-item last-item">g) 'eylan lu taronyu. <span class="spoiler">The friend is a hunter.</span></li>
+            </ul>
+
+            <h4>3. Translate the sentences to Na'vi</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) You have a book. <span class="spoiler">Ngaru lu puk.</span></li>
+                <li class="list-group-item">b) He is a hunter. <span class="spoiler">Po taronyu lu.</span></li>
+                <li class="list-group-item">c) There is a book. <span class="spoiler">Lu puk.</span></li>
+                <li class="list-group-item last-item">d) The animal is fine. <span class="spoiler">Ioangur lu fpom.</span></li>
+            </ul>
+
+            <h4>4. Practice!</h4>
+            <p>Go to the <a href="https://discord.gg/tJbWF8Scu7">Kelutral Discord Server</a> or the <a href="https://discord.gg/WF6qcmv">Learn Na'vi Discord server</a> and practice a bit of smalltalk :D</p>
+            <br>
+            <h2>Vocab</h2>
+            <div class="container-fluid summary">
+            <div class="vocab" style="-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;-webkit-column-gap: 20px;-moz-column-gap: 20px;column-gap: 20px;">
+                <p><b>‘eylan</b> (n.) [ˈʔɛj.lan] - friend | <i>Ngaru lu ‘eylan. - You have a friend.</i></p>
+                <p><b>Eywa</b> (n.) [ˈɛj.wa] - Eywa, world spirit, the Great Mother who protects the balance of life | <i>Kìyevame, Eywa ngahu! - See you, Eywa be with you!</i></p>
+                <p><b>fì’u</b> (n.) [fɪ.ˈʔu] - this, this thing | <i>Fì’u lu sìltsan. - This is good.</i></p>
+                <p><b>fpom</b> (n.) [fpom] - wellbeing, peace, happiness | <i>Oeru lu fpom. - I’m fine.</i></p>
+                <p><b>hu</b> (adp.) [hu] - with | <i>Kìyevame, Eywa ngahu! - See you, Eywa be with you!</i></p>
+                <p><b>ikran</b> (n.) [ˈik.ɾan] - ikran, banshee | <i>Lu ngar ikran. - You have an ikran.</i></p>
+                <p><b>ioang</b> (n.) [i.ˈo.aŋ] - animal | <i>Lu ioang. - There is an animal.</i></p>
+                <p><b>kaltxì</b> (intj.) [kal.ˈtʼɪ] - hello | <i>Kaltxì ma Peyral! - Hello, Peyral!</i></p>
+                <p><b>kìyevame</b> (intj.) [kɪ.jɛ.ˈva.mɛ] - see you | <i>Kìyevame, Eywa ngahu! - See you, Eywa be with you!</i></p>
+                <p><b>lu</b> (vin.) [lu] - to be | <i>Oe lu taronyu. - I am a hunter. | Ngaru lu ikran. - You have an ikran. | Lu ioang. - There is an animal.</i></p>
+                <p><b>ma</b> (part.) [ma] - vocative marker, for addressing something directly | <i>Kaltxì ma Peyral! - Hello, Peyral!</i></p>
+                <p><b>nga</b> (pn.) [ŋa] - you | <i>Ngaru lu ikran. - You have an ikran.</i></p>
+                <p><b>oe</b> (pn.) [ˈo.ɛ] - I | <i>Oe lu taronyu. - I am a hunter. | Oeru lu ikran. - I have an ikran.</i></p>
+                <p><b>po</b> (pn.) [po] - he, she | <i>Poru lu puk. - He/She has a book.</i></p>
+                <p><b>puk</b> (n.) [puk] - book | <i>Poru lu puk. - He/She has a book.</i></p>
+                <p><b>set</b> (adv.) [sɛt] - now | <i>Nga set lu taronyu. - You are a hunter now.</i></p>
+                <p><b>sìltsan</b> (adj.) [sɪl.ˈ͡tsan] - good | <i>Fì’u lu sìltsan. - This is good.</i></p>
+                <p><b>srak</b> (part.) [sɾak] - marker for yes/no questions | <i>Ngaru lu fpom srak? - Are you fine?</i></p>
+                <p><b>srane</b> (intj.) [ˈsɾa.nɛ] - Yes | <i>Srane, oeru lu fpom. - Yes, I am fine.</i></p>
+                <p><b>taronyu</b> (n.) [ˈta.ɾon.ju] - hunter | <i>Nga set lu taronyu. - You are a hunter now. | Oe lu taronyu. - Ich am a hunter.</i></p>
+            </div></div>
+            <br>
+            <h2>Phrases</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><b>Ngaru lu fpom srak?</b> - How are you? <i>literally:</i> Is wellbeing to you? Do you have wellbeing?</li>
+                <li class="list-group-item"><b>Oeru lu fpom.</b> - I’m fine. <i>literally:</i> To me there is wellbeing. I have wellbeing.</li>
+                <li class="list-group-item last-item"><b>Eywa ngahu.</b> - Eywa be with you. Phrase for farewell. <i>literally:</i> Eywa with you.</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

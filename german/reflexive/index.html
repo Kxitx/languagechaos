@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse in" aria-expanded="true" id="homeSubmenu">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li class="active">
+                            <a href="">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+        <h3 class="title-page">Lesson 7: Reflexive</h3>
+        <p>In this lesson you will learn how to use reflexive verbs and pronouns!</p>
+        
+        <h2>Reflexive Pronouns</h2>
+        <p>Reflexive pronouns are pronouns which refer back to the subject of a sentence. In English those are pronouns like myself and yourself. In German, we have two forms for some of them: One for the direct, and one for the indirect object:</p>
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+                <div class="col-sm-6"><b>Dativ</b> (Indirect Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ich</b></div>
+                <div class="col-sm-3">mich</div>
+                <div class="col-sm-6">mir</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>du</b></div>
+                <div class="col-sm-3">dich</div>
+                <div class="col-sm-6">dir</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>er/sie/es</b></div>
+                <div class="col-sm-3">sich</div>
+                <div class="col-sm-6">sich</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>wir</b></div>
+                <div class="col-sm-3">uns</div>
+                <div class="col-sm-6">uns</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ihr</b></div>
+                <div class="col-sm-3">euch</div>
+                <div class="col-sm-6">euch</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>sie</b></div>
+                <div class="col-sm-3">sich</div>
+                <div class="col-sm-6">sich</div>
+            </div>
+        </div>
+        <br>
+
+        <p>While in english those can be used for different stuff (for example also to express that someone does something by himself), you only use those German pronouns for reflexive sentences! You will see some examples in the next section.</p>
+        
+        <h2>How to use the Reflexive Pronouns</h2>
+
+        <h4>Reflexive Verbs</h4>
+        <p>Reflexive verbs are only used in a reflexive way. Here some examples:</p> 
+        
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Verb</b></div>
+                <div class="col-sm-9"><b>Example</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">sich irren (<i>to be wrong</i>)</div>
+                <div class="col-sm-9">Er irrt sich. <i>He is wrong.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">sich erholen (<i>to recover</i>)</div>
+                <div class="col-sm-9">Der Hund erholt sich. <i>The dog recovers.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">sich bewerben (<i>to apply</i>)</div>
+                <div class="col-sm-9">Ich bewerbe mich um den Job. <i>I apply for the job.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">sich freuen (<i>to be happy</i>)</div>
+                <div class="col-sm-9">Ich freue mich über den Burger. <i>I am happy about the burger.</i></div>
+            </div>
+        </div>
+        <br>
+        
+        <p>You see, some German verbs are reflexive in German, but used normally in English.</p>
+        <p>Some of them <i>can</i> be used without the reflexive, but in that case they mean something different:</p>
+
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-2"><b>Verb</b></div>
+                <div class="col-sm-5"><b>Example not reflexive</b></div>
+                <div class="col-sm-5"><b>Example reflexive</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2">(sich) erinnern (<i>to remind/to remember</i>)</div>
+                <div class="col-sm-5">Ich erinnere dich. <i>I remind you.</i></div>
+                <div class="col-sm-5">Ich erinnere mich. <i>I remember.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-2">(sich) merken (<i>to notice/to keep in mind</i>)</div>
+                <div class="col-sm-5">Ich merke dass es dir schlecht geht. <i>I notive that you feel not well.</i></div>
+                <div class="col-sm-5">Ich merke mir das Wort. <i>I keep the word in mind.</i></div>
+            </div>
+        </div>
+        <br>
+
+        <h4>Normal Verbs</h4>
+        <p>With "normal verbs" I mean verb which cannot only be used reflexive, but are used normally the most of the time. Some examples:</p>
+
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Verb</b></div>
+                <div class="col-sm-9"><b>Example</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">sehen (<i>to see</i>)</div>
+                <div class="col-sm-9">Du siehst dich (selbst). <i>You see yourself.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">waschen (<i>to wash</i>)</div>
+                <div class="col-sm-9">Ich wasche mich (selbst). <i>I wash myself.</i></div>
+            </div>
+        </div>
+        <br>
+
+        <p>If the verb has a normal direct object additional to the reflexive, then the reflexive pronoun is in the dative:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Verb</b></div>
+                <div class="col-sm-9"><b>Example</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">waschen (<i>to wash</i>)</div>
+                <div class="col-sm-9">Ich wasche mich. <i>I wash myself.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">waschen (<i>to wash</i>)</div>
+                <div class="col-sm-9">Ich wasche mir die Hände. <i>I wash my hands./"I wash myself the hands."</i></div>
+            </div>
+        </div>
+        <br>
+
+        <h2>Exercises</h2>
+        
+    </div>
+</div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

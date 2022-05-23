@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse" id="homeSubmenu" aria-expanded="false">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled in" aria-expanded="true" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li class="active">
+                            <a href="">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+
+        <div class="container-fluid">
+            <h3 class="title-page" style="margin-bottom:0px">Chapter 3: Peyralä soaia</h3>
+            <p><b>Topics:</b> Plural, lenition, sì vs. ulte, genitive</p>
+            <br>
+            <div class="container-fluid terms">
+                <p><b>Singular</b> - One thing, Examples: tree, dog</p>
+                <p><b>Plural</b> - Several things, Examples: trees, dogs</p>
+                <p><b>Adposition</b> - Describe the relationship between two nouns, Examples: In, on, during</p>
+                <p><b>Subject</b> - Doer of an action, noun about which a statement is made</p>
+                <p><b>Genitive</b> - Case marking a possession, Examples: My book, the child’s toy</p>
+            </div>
+
+            <h2>Text</h2>
+            <div class="container-fluid">
+            <p style="margin-bottom: 0px">Peyralä soaia lu apxa<br><i>Peyral’s family is big.</i></p>
+            <p style="margin-bottom: 0px">Poru lu pxesmuk. Pxefeyä pxestxo lu Tsireya sì Rayluk sì Maranu.<br><i>She has three siblings. Their names are Tsireya, Rayluk, and Maranu.</i></p>
+            <p style="margin-bottom: 0px">Tsireya sì Maranu lu ‘eveng. Peyral pxìm uvan si hu mefo.<br><i>Tsireya and Maranu are children. Peyral plays often with the two of them.</i></p>
+            <p style="margin-bottom: 0px">Peyralä tsmuk alu Rayluk lu karyu ulte kelku si hu Rilari.<br><i>Peyral’s brother Rayluk is a teacher and lives with Rilari.</i></p>
+            <p style="margin-bottom: 0px">Peyralä sa’nokä tstxo lu Newey. Newey rol pxìm.<br><i>Peyral’s mother’s name is Newey. Newey often sings.</i></p>
+            <p>Peyralä sempul lu Serawn. Serawnur lu mesmuke alu Takuk sì Tsenu.<br><i>Peyral’s father is Serawn. Serawn has two siblings called Takuk and Tsenu.</i></p>
+            <br>
+            <h2>Grammar</h2>
+            <h4>Plural and lenition</h4>
+            <p>In contrast to English, there is more than one form of plural in Na’vi. It determines whether it deals with two, three or more than three things. This can be seen in examples from the text above:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>tsmuk</b></div>
+                    <div class="col-sm-9"><b>sibling</b> (singular, brother or sister)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>mesmuk</b> (me + tsmuk)</div>
+                    <div class="col-sm-9"><b>two siblings</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>pxesmuk</b> (pxe + tsmuk)</div>
+                    <div class="col-sm-9"><b>three siblings</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>aysìrol</b> (ay + tìrol)</div>
+                    <div class="col-sm-9"><b>songs</b></div>
+                </div>
+            </div>
+
+            <p>The three plural forms are formed with prefixes:</p>
+            <div class="container-fluid learning">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Singular</b></div>
+                    <div class="col-sm-3"><b>Dual (2)</b></div>
+                    <div class="col-sm-3"><b>Trial (3)</b></div>
+                    <div class="col-sm-3"><b>Plural (4+)</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">-</b></div>
+                    <div class="col-sm-3">me+</div>
+                    <div class="col-sm-3">pxe+</div>
+                    <div class="col-sm-3">ay+</div>
+                </div>
+            </div>
+
+            <p>A couple of examples:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>mokri</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">me</font>mokri</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">pxe</font>mokri</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">ay</font>mokri</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">(voice)</b></div>
+                    <div class="col-sm-3">(2 voices)</div>
+                    <div class="col-sm-3">(3 voices)</div>
+                    <div class="col-sm-3">(4+ voices)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>soaia</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">me</font>soaia</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">pxe</font>soaia</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">ay</font>soaia</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">(family)</b></div>
+                    <div class="col-sm-3">(2 families)</div>
+                    <div class="col-sm-3">(3 families)</div>
+                    <div class="col-sm-3">(4+ families)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>sa'nok</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">me</font>sa'nok</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">pxe</font>sa'nok</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">ay</font>sa'nok</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">(mother)</b></div>
+                    <div class="col-sm-3">(2 mothers)</div>
+                    <div class="col-sm-3">(3 mothers)</div>
+                    <div class="col-sm-3">(4+ mothers)</div>
+                </div>
+            </div>
+
+            <p>But what does this + mean, which I inserted in the table before »me«, »pxe« and »ay«?</p>
+            <p>Perhaps you have already noticed that: In the examples from the text, the first letter of the root word has changed. This process is called lenition. Under certain conditions (certain prefixes and adpositions), the first letter of a word changes in the following way:</p>
+             
+            <div class="container-fluid learning">
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Letter</b></div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3"><b>Lenited Form</b></div>
+                    <div class="col-sm-2"><b>Example</b></div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">tx</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">t</div>
+                    <div class="col-sm-2">txopu (fear)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">metopu (2 fears)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">kx</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">k</div>
+                    <div class="col-sm-2">kxeyey (mistake)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">mekeyey (2 mistakes)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">px</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">p</div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">ts</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">s</div>
+                    <div class="col-sm-2">tstxo (name)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">pxestxo (3 names)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">t</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">s</div>
+                    <div class="col-sm-2">taronyu (hunter)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">pxesaronyu (3 hunters)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">k</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">h</div>
+                    <div class="col-sm-2">karyu (teacher)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">pxeharyu (3 teachers)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">p</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">f</div>
+                    <div class="col-sm-2">pam (sound)</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">ayfam (4+ sounds)</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1">'</b></div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-3">disappears</div>
+                    <div class="col-sm-2">'eylan</div>
+                    <div class="col-sm-1">-></div>
+                    <div class="col-sm-4">ayeylan (4+ friends)</div>
+                </div>
+            </div>
+
+            <p>Prefixes and adpositions that cause lenition are usually marked with a +. Tip for those who cannot remember which letter changes and how: Search an example of a word for each letter and study it together with its lenited form. If you are not sure, you only have to remember your word.</p>
+            <p>The lenition has an exception: If rr or ll follows ‘ , the ‘  doesn’t vanish:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>'rrta</b></div>
+                    <div class="col-sm-3"><b>me'rrta</b></div>
+                    <div class="col-sm-3"><b>pxe'rrta</b></div>
+                    <div class="col-sm-3"><b>ay'rrta</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">(Planet Earth)</b></div>
+                    <div class="col-sm-3">(2 Earths)</div>
+                    <div class="col-sm-3">(3 Earths)</div>
+                    <div class="col-sm-3">(4+ Earths)</div>
+                </div>
+            </div>
+
+            <p>However, that is unfortunately not all for the exceptions.There are also a couple of things to pay attention to with the plural forms. First, there are a few words that always stay singular, the plural forms cannot be formed with these words. They usually are marked in the dictionaries as uncountable.</p>
+            <p>Moreover, identical vowels merge. This doesn’t however apply to consonants, so not to ay + y!</p>
+            
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>'eylan</b> (friend)</div>
+                    <div class="col-sm-3"><b>me + 'eylan</b></div>
+                    <div class="col-sm-3"><b>pxe + 'eylan</b></div>
+                    <div class="col-sm-3"><b>ay + 'eylan</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">me</font>ylan</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">pxe</font>ylan</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">ay</font>eylan</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>'eveng</b> (child)</div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">me</font>veng</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">pxe</font>veng</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">ay</font>eveng</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">But:</div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>yerik</b> (Pandoran animal)</div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">me</font>yerik</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">pxe</font>yerik</b></div>
+                    <div class="col-sm-3"><b>-> <font class ="marked">ay</font>yerik</b></div>
+                </div>
+            </div>
+
+            <p>Finally,  it is possible to drop the ay+ when the word is lenited. In other words: If the first letter of a word changed with the plural prefix, this prefix can be omitted. This doesn’t apply however to the dual and the trial - after all, you still have to be able to distinguish what it exactly means when a word has been lenited:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>taronyu</b> (hunter)</div>
+                    <div class="col-sm-3"><b><font class ="marked">me</font>saronyu</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">pxe</font>saronyu</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">ay</font>saronyu</b> or <b>saronyu</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>pam</b> (sound)</div>
+                    <div class="col-sm-3"><b><font class ="marked">me</font>fam</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">pxe</font>fam</b></div>
+                    <div class="col-sm-3"><b><font class ="marked">ay</font>fam</b> or <b>fam</b></div>
+                </div>
+            </div>
+            
+            <p>By the way, the plural is not used in Na’vi when the number has already been clarified before:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Tsireya sì Maranu lu <font class ="marked">‘eveng.</font></b></div>
+                    <div class="col-sm-9"><b>Tsireya and Maranu are <font class ="marked">children.</font></b></div>
+                </div>
+            </div>
+
+            <p>The noun »'eveng« (child) here is in the singular, but in the plural when translated into English. The Na’vi like to go without saying things twice, which is why using the dual prefix in this case is not necessary. Otherwise, it behaves like in the following case:</p>
+            
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b><font class ="marked">Pxe</font>feyä <font class ="marked">pxe</font>stxo lu Tsireya sì Rayluk sì Maranu.</b></div>
+                    <div class="col-sm-9"><b>Their names are Tsireya, Rayluk, and Maranu.</b></div>
+                </div>
+            </div>
+
+            <p>It looks at first sight as if one could just write »tstxo« instead of »pxestxo« - after all, it’s certainly clear beforehand with »pxefeyä« that we must deal with three names, right? But a tiny detail comes up here: Do all three of them have a unique, common group name, or is each person assigned an individual name? Here is a comparison of both versions:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b><font class ="marked">Pxe</font>feyä <font class ="marked">pxe</font>stxo lu Farin sì Bela sì Rodrigo.</b></div>
+                    <div class="col-sm-9"><b>Their name<font class ="marked">s</font> are Farin, Bela, and Rodrigo.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b><font class ="marked">Pxe</font>feyä tstxo lu ‘die Ärzte’.</b></div>
+                    <div class="col-sm-9"><b>Their name (the group name) is ‘die Ärzte’.</b></div>
+                </div>
+            </div>
+            
+            <p>In the second sentence, name is in the singular both in English and Na’vi.</p>
+            <br>
+            <h4>sì vs. ulte</h4>
+            <p>Look at the following sentences:</p>
+            
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Pxefeyä pxestxo lu Tsireya <font class ="marked">sì</font> Rayluk <font class ="marked">sì</font> Maranu.</b></div>
+                    <div class="col-sm-9"><b>Their names are Tsireya, Rayluk, and Maranu.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyralä tsmuk alu Rayluk lu karyu <font class ="marked">ulte</font> kelku si hu Rilari. </b></div>
+                    <div class="col-sm-9"><b>Peyral’s brother Rayluk is a teacher and lives with Rilari.</b></div>
+                </div>
+            </div>
+
+            <p>In both sentences, the word »and« occurs in English, but in Na’vi, two different words are used. Depending on the context in which and is used, there are two different words in Na’vi.</p>
+            
+            <p>If someone wants to make an enumeration and connect the elements with »and«, they use »sì« in Na’vi. This word can connect names, adjectives as well as verbs. Sentences and clauses are however never connected with »sì«! »Sì« can, as you can see in the following sentences, either stand in front of a word separated by a space, or be attached to a word similarly to a case ending, where it comes after any case ending:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe pey <font class ="marked">sì</font> nìn.</b></div>
+                    <div class="col-sm-9"><b>I wait and observe.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oel tse’a yerikit <font class ="marked">sì</font> ikranit.</b></div>
+                    <div class="col-sm-9"><b>I see a yerik and an ikran.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ngal stawm pamit mokrit<font class ="marked">sì</font>.</b></div>
+                    <div class="col-sm-9"><b>You hear a sound and a voice.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oeyä soaia lu apxa: Sa’nok <font class ="marked">sì</font> sempul <font class ="marked">sì</font> pxesmuk.</b></div>
+                    <div class="col-sm-9"><b>My family is big: a mother, a father, and three siblings.</b></div>
+                </div>
+            </div>
+
+            <p>»Ulte«, on the other hand, serves to connect multiple sentences with »and«:</p>
+            
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oel taron ayioangit <font class ="marked">ulte</font> ngal tok tsrayti.</b></div>
+                    <div class="col-sm-9"><b>I’m hunting animals and you are in the village.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Pol fwew meyerikit <font class ="marked">ulte</font> taron mefot.</b></div>
+                    <div class="col-sm-9"><b>S/he looks for two yeriks and hunts both of them.</b></div>
+                </div>
+            </div>
+
+            <p>As you can see in the second sentence, the subject, when it is identical in both parts of the sentence, can also be omitted in the second part.</p>
+            <p>The big difference with »ulte« is that the individual elements, connected with each other, make sense individually, while this doesn’t apply to words connected with »sì«.</p>
+            <br>
+            <h4>Genitive</h4>
+            <p>By looking at the example, it becomes quickly evident that the possession is shown with a case ending:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyral<font class ="marked">ä</font> soaia lu apxa.</b></div>
+                    <div class="col-sm-9"><b>Peyral’s family is large.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Pxefe<font class ="marked">yä</font> pxestxo lu Tsireya sì Rayluk sì Maranu.</b></div>
+                    <div class="col-sm-9"><b>Their names are Tsireya, Rayluk, and Maranu.</b></div>
+                </div>
+            </div>
+
+            <p>Similarly to -l, -t and -ru, there are also here different forms depending on how the word to which the ending will be attached ends:</p>
+            <div class="container-fluid learning">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>After consonant, o & u:</b></div>
+                    <div class="col-sm-9"><b>-ä</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>After other vowels:</b></div>
+                    <div class="col-sm-9"><b>-yä</b></div>
+                </div>
+            </div>
+
+            <p>Moreover, there are a few exceptions. Among them are first the personal pronouns, which will be treated in the next chapter, a few unique words which are so seldom used that they will not be discussed in detail here, as well as nouns which end with -ia:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>soa<font class ="marked">ia</font></b> (family)</div>
+                    <div class="col-sm-9"><b>'eylan soa<font class ="marked">iä</font>/soa<font class ="marked">iä</font> 'eylan</b> (friend of the family)</div>
+                </div>
+            </div>
+
+            <b>Several genitives chained together are no problem:</b>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyral<font class ="marked">ä</font> sa'nok<font class ="marked">ä</font> tstxo lu Newey.</b> (family)</div>
+                    <div class="col-sm-9"><b>The name of Peyral's mother is Newey.</b></div>
+                </div>
+            </div>
+
+            <p>No rules exist (yet) as to which order the nouns in such a construction must follow. At best one chooses the order so that the sense of the sentence is the easiest possible to understand for the interlocutor.</p>
+
+            <br>
+            <h4>Summary</h4>
+            <p class="subsubtitle"><b>Plural and lenition</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Singular</b> (hunter)</div>
+                    <div class="col-sm-3"><b>Dual</b></div>
+                    <div class="col-sm-3"><b>Trial</b></div>
+                    <div class="col-sm-3"><b>Plural</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">yayo</div>
+                    <div class="col-sm-3"><font class ="marked">me</font>yayo</div>
+                    <div class="col-sm-3"><font class ="marked">pxe</font>yayo</div>
+                    <div class="col-sm-3"><font class ="marked">ay</font>yayo</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">'eylan</div>
+                    <div class="col-sm-3"><font class ="marked">me</font>ylan</div>
+                    <div class="col-sm-3"><font class ="marked">pxe</font>ylan</div>
+                    <div class="col-sm-3"><font class ="marked">ay</font>eylan</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>t</b>aronyu</div>
+                    <div class="col-sm-3"><font class ="marked">me</font><b>s</b>aronyu</div>
+                    <div class="col-sm-3"><font class ="marked">pxe</font><b>s</b>aronyu</div>
+                    <div class="col-sm-3"><font class ="marked">ay</font><b>s</b>aronyu or <b>s</b>aronyu</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>Overview of lenition</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-12">px -> p | kx -> k | tx -> t | ts -> s | t -> s | k -> h | p -> f | ‘ -> disappears</div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>sì vs. ulte</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oel tse’a yerikit <font class ="marked">sì</font> ikranit.</b></div>
+                    <div class="col-sm-9"><b>I see the yerik and the ikran.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">-> Enumerations</div>
+                    <div class="col-sm-9"></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oel tse’a ikranit <font class ="marked">ulte</font> taron yerikit.</b></div>
+                    <div class="col-sm-9"><b>I see the ikran and hunt the yerik.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">-> Connection of sentences</div>
+                    <div class="col-sm-9"></div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>Genitive</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe<font class ="marked">yä</font> sa’nok</b></div>
+                    <div class="col-sm-9"><b>My mother</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyral<font class ="marked">ä</font> sempul</b></div>
+                    <div class="col-sm-9"><b>Peyral’s father</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyral<font class ="marked">ä</font> sempul<font class ="marked">ä</font> tstxo</b></div>
+                    <div class="col-sm-9"><b>The name of Peyral’s father</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Soa<font class ="marked">iä</font> ‘eylan</b>></div>
+                    <div class="col-sm-9"><b>The friend of the family</b></div>
+                </div>
+            </div>
+            
+            <br>
+            <h2>Exercises</h2>
+            <h4>1. Reading</h4>
+            <p>Read the text aloud. Focus on the exact pronunciation, even if it makes you speak more slowly. If you have the possibility, look for someone on Discord who can read with you.</p>
+
+            <h4>2. Get creative!</h4>
+            <p>Draw a family tree that represents Peyral’s family. Try to look at the english translation as rarely as possible.</p>
+            <p><span class="spoiler"><b>Parents:</b> Serawn (mother), Newey (mother)<br><b>Siblings:</b> Tsireya, Rayluk, Tsenu<br><b>Aunts/Uncles:</b> Takuk, Tsenu<br><b>Other:</b> Rilari (Rayluk's mate)<br>Only the gender of Peyral's parents is known, all the other could be both, male or female.</span</p>
+
+            <h4>3. Form all three plural forms of the following words:</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-3">tsray <span class="spoiler">mesray, pxesray, (ay)sray</span></div>
+                    <div class="col-sm-3">sempul <span class="spoiler">mesempul, pxesempul, aysempul</span></div>
+                    <div class="col-sm-3">puk <span class="spoiler">mefuk, pxefuk, (ay)fuk</span></div>
+                    <div class="col-sm-3">taronyu <span class="spoiler">mesaronyu, pxesaronyu, (ay)saronyu</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-3">yerik <span class="spoiler">meyerik, pxeyerik, ayyerik</span></div>
+                    <div class="col-sm-3">tìrol <span class="spoiler">mesìrol, pxesìrol, (ay)sìrol</span></div>
+                    <div class="col-sm-3">txopu <span class="spoiler">metopu, pxetopu, (ay)topu</span></div>
+                    <div class="col-sm-3">'eylan <span class="spoiler">meylan, pxeylan, (ay)eylan</span></div>
+                </div></li>
+            </ul>
+
+            <h4>4. Fill in the following blanks with -ä, sì, and ulte:</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) ‘eylan<span class="spoiler">//</span> oe<span class="spoiler">yä</span> <span class="spoiler">sì</span> Peyral<span class="spoiler">//</span> taron. <span class="spoiler">My friend and Peyral hunt. Alternative solution: <i>'eylan oeyä Peyralsì taron.</i></span></li>
+                <li class="list-group-item">b) Pol nìn <span class="spoiler">sì</span> taron ioangit. <span class="spoiler">He/She watches and hunts the animal.</span></li>
+                <li class="list-group-item">c) Fwew ngal oe<span class="spoiler">yä</span> tsmuk<span class="spoiler">//</span> <span class="spoiler">//</span> sa’nok<span class="spoiler">sì</span>. <span class="spoiler">You search my sibling an mother. Alternative solution: <i>Fwew ngal oeyä tsmuk sì sa'nok.</i></span></li>
+                <li class="list-group-item">d) Ninat<span class="spoiler">ä</span> sempul<span class="spoiler">//</span> lu taronyu<span class="spoiler">//</span> <span class="spoiler">sì</span> ‘eylan<span class="spoiler">//</span> oe<span class="spoiler">yä</span>. <span class="spoiler">Ninat's father is a hunter and my friend. Alternative solution: <i>Ninatä sempul lu taronyu sì ‘eylan oeyä.</i></span></li>
+                <li class="list-group-item">e) Ma Tsireya<span class="spoiler">//</span> <span class="spoiler">sì</span> Rayluk<span class="spoiler">//</span>, oel fwew oe<span class="spoiler">yä</span> sempulit. <span class="spoiler">Tsireya and Rayluk, I search my father. Alternative: <i>Tsireya Rayluksì, oel fwew oeyä sempulit.</i></span></li>
+                <li class="list-group-item">f) Oe<span class="spoiler">yä</span> tsmuk<span class="spoiler">//</span> lu karyu <span class="spoiler">ulte</span> poru lu ayfuk. <span class="spoiler">My sibling is a teacher and has books. Alternative: <i>Oe tsmuksì lu karyu ulte poru lu ayfuk.</i> - I and the sibling are teacher and he/she has books.</span></li>
+                <li class="list-group-item last-item">g) Yerikìl nìn oeti <span class="spoiler">ulte</span> tul. <span class="spoiler">The yerik sees me and runs.</span></li>
+            </ul>
+
+            <h4>5. Writing</h4>
+            <p>1. Rewrite the first part of the text from chapter two so that Peyral hunts two yeriks, hears multiple voices, and three hunters appear.</p>
+            <p>2. Make a short description of your own family. Use the text at the beginning of this chapter as orientation.</p>
+            <br>
+            <h2>Vocab</h2><div class="container-fluid summary">
+            <div class="vocab" style="-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;-webkit-column-gap: 20px;-moz-column-gap: 20px;column-gap: 20px;">
+                <p><b>‘eveng</b> (n.) [ˈʔɛ.vɛŋ] - Child | <i>Mefo lu ‘eveng. - Both are children. | ‘evengä tstxo lu Maranu. - The child’s name is Maranu.</i></p>
+                <p><b>‘rrta</b> (n.) [ˈʔrˌ.ta] - Earth (the planet) | <i>Oeyä soaial ‘rrtati tok. - My family is on Earth.</i></p>
+                <p><b>alu</b> (conj.) [ˈa.lu] - that is, in other words | <i>Ngaru lu mesmuk alu Lea sì Felix. - You have two siblings called Lea and Felix</i></p>
+                <p><b>apxa</b> (adj.) [a.ˈpʼa] - large, big | <i>Oeyä soaia lu apxa. - My family is big.</i></p>
+                <p><b>karyu</b> (n.) [ˈkaɾ.ju] - teacher | <i>Po lu karyu. - S/he is a teacher.</i></p>
+                <p><b>kelku si</b> (vin.) [ˈkɛl.ku si] - to live, to dwell | <i>Peyralä tsmuk kelku si hu Rilari. - Peyral’s brother lives with Rilari.</i></p>
+                <p><b>kxeyey</b> (n.) [ˈkʼɛ.jɛj] - mistake | <i>Kxeyeyti oel tse’a. - I see a mistake.</i></p>
+                <p><b>mefo</b> (pn.) [mɛ.ˈfo] -  they (both) | <i>Mefo lu ‘eveng. - Both of them are children. | Fwew mefol Ninatit. - Both are looking for Ninat. | Peyral pxìm uvan si hu mefo. - Peyral plays often with both of them.</i></p>
+                <p><b>pxefo</b> (pn.) [pʼɛ.ˈfo] - they (the three of them) | <i>Pxefo uvan si sì rol. - The three of them play and sing.</i></p>
+                <p><b>pxìm</b> (adv.) [pʼɪm] - often | <i>Peyral pxìm uvan si hu mefo. - Peyral plays often with both of them.</i></p>
+                <p><b>rol</b> (vin.) [ɾol] - to sing | <i>Newey rol pxìm. - Newey often sings.</i></p>
+                <p><b>sa'nok</b> (n.) [ˈsaʔ.nok] - mother | <i>Peyralä sa’nokä tstxo lu Newey. - The name of Peyral’s mother is Newey.</i></p>
+                <p><b>sempul</b> (n.) [ˈsɛm.pul] - father | <i>Sempul oeyä taron. | My father hunts.</i></p>
+                <p><b>sì</b> (conj.) [sɪ] - and (for enumerations) | <i>Pxefo uvan si sì rol. - The three of them play and sing.</i></p>
+                <p><b>soaia</b> (n.) [so.ˈa.i.a] - family | <i>Oeyä soaial ‘rrtati tok. - My family is on Earth.</i></p>
+                <p><b>tìrol</b> (n.) [tɪ.ˈɾol] - song | <i>Tìrol sìltsan lu. - The song is good.</i></p>
+                <p><b>tsmuk</b> (n.) [͡tsmuk] - sibling (singular, gender neutral) | <i>Peyralä tsmuk kelku si hu Rilari. - Peyral’s brother lives with Rilari.</i></p>
+                <p><b>tstxo</b> (n.) [͡tstʼo] - name | <i>Peyralä sa’nokä tstxo lu Newey. - The name of Peyral’s mother is Newey. | ‘evengä tstxo lu Maranu. - The child’s name is Maranu.</i></p>
+                <p><b>txopu</b> (n.) [ˈtʼo.pu] - fear | <i>Oel txoputi ngeyä tse’a. - I see your fear.</i></p>
+                <p><b>ulte</b> (conj.) [ˈul.tɛ] - and (for connecting sentences) | <i>Oel taron ayioangit ulte ngal tok tsrayti. - I hunt animals and you are in the village.</i></p>
+            </div></div>
+        </div>
+    </div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse in" aria-expanded="true" id="homeSubmenu">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li class="active">
+                            <a href="">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+        <h3 class="title-page">Lesson 10: Genitive</h3>
+        <p>In this lesson you will learn the possessive pronouns and the genitive case.</p>
+        
+        <h2>Possessive Pronouns</h2>
+        <p>In the following table you can find the German possessive pronouns:</p>
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ich</b></div>
+                <div class="col-sm-9"><b>mein</b> (my)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>du</b></div>
+                <div class="col-sm-9"><b>dein</b> (your)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>er</b></div>
+                <div class="col-sm-9"><b>sein</b> (his)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>sie</b></div>
+                <div class="col-sm-9"><b>ihr</b> (her)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>es</b></div>
+                <div class="col-sm-9"><b>sein</b> (its)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>wir</b></div>
+                <div class="col-sm-9"><b>unser</b> (our)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>ihr</b></div>
+                <div class="col-sm-9"><b>euer</b> (your (plural))</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>sie</b></div>
+                <div class="col-sm-9"><b>ihr</b> (their)</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Bad news: Like many things in German, possessive pronouns change according to gender, number and case. The following table shows the endings, using <i>mein</i> (my) as an example:</p>
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-2"><b>masculine</b></div>
+                <div class="col-sm-2"><b>feminine</b></div>
+                <div class="col-sm-2"><b>neuter</b></div>
+                <div class="col-sm-3"><b>plural</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-2">mein Hund</div>
+                <div class="col-sm-2">mein<b>e</b> Katze</div>
+                <div class="col-sm-2">mein Schaf</div>
+                <div class="col-sm-3">mein<b>e</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-2">mein<b>en</b> Hund</div>
+                <div class="col-sm-2">mein<b>e</b> Katze</div>
+                <div class="col-sm-2">mein Schaf</div>
+                <div class="col-sm-3">mein<b>e</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-2">mein<b>em</b> Hund</div>
+                <div class="col-sm-2">mein<b>er</b> Katze</div>
+                <div class="col-sm-2">mein<b>em</b> Schaf</div>
+                <div class="col-sm-3">mein<b>en</b> Hunden</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Indirect object)</div>
+                <div class="col-sm-2">mein<b>es</b> Hundes</div>
+                <div class="col-sm-2">mein<b>er</b> Hundes</div>
+                <div class="col-sm-2">mein<b>es</b> Hundes</div>
+                <div class="col-sm-3">mein<b>er</b> Hundes</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Most possessive pronouns work like that, only <i>euer</i> is a bit irregular:</p>
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-2"><b>masculine</b></div>
+                <div class="col-sm-2"><b>feminine</b></div>
+                <div class="col-sm-2"><b>neuter</b></div>
+                <div class="col-sm-3"><b>plural</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-2">euer Hund</div>
+                <div class="col-sm-2"><b>eure</b> Katze</div>
+                <div class="col-sm-2">euer Schaf</div>
+                <div class="col-sm-3"><b>eure</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-2"><b>euren</b> Hund</div>
+                <div class="col-sm-2"><b>eure</b> Katze</div>
+                <div class="col-sm-2">euer Schaf</div>
+                <div class="col-sm-3"><b>eure</b> Hunde</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-2"><b>eurem</b> Hund</div>
+                <div class="col-sm-2"><b>eurer</b> Katze</div>
+                <div class="col-sm-2"><b>eurem</b> Schaf</div>
+                <div class="col-sm-3"><b>euren</b> Hunden</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Indirect object)</div>
+                <div class="col-sm-2"><b>eures</b> Hundes</div>
+                <div class="col-sm-2"><b>eurer</b> Katze</div>
+                <div class="col-sm-2"><b>eures</b> Schafes</div>
+                <div class="col-sm-3"><b>eurer</b> Hunde</div>
+            </div>
+        </div>
+        <br>
+        <p>Like you can see above, as soon as something gets added, the second <i>e</i> disappears.</p>
+        <p>But what if I want to use the possessive pronouns without the noun, like for example in the English sentence <i>The dog is mine</i>? Like English, German uses slightly different words then - the pronoun stays the same, but the ending changes:</p>
+
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Case</b></div>
+                <div class="col-sm-2"><b>masculine</b></div>
+                <div class="col-sm-2"><b>feminine</b></div>
+                <div class="col-sm-2"><b>neuter</b></div>
+                <div class="col-sm-3"><b>plural</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-2">meiner</div>
+                <div class="col-sm-2">meine</div>
+                <div class="col-sm-2">meins</div>
+                <div class="col-sm-3">meine</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct object)</div>
+                <div class="col-sm-2">meinen</div>
+                <div class="col-sm-2">meine</div>
+                <div class="col-sm-2">meins</div>
+                <div class="col-sm-3">meine</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Dativ</b> (Indirect object)</div>
+                <div class="col-sm-2">meinem</div>
+                <div class="col-sm-2">meiner</div>
+                <div class="col-sm-2">meinem</div>
+                <div class="col-sm-3">meinen</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Genitiv</b> (Indirect object)</div>
+                <div class="col-sm-2">meines</div>
+                <div class="col-sm-2">meiner</div>
+                <div class="col-sm-2">meines</div>
+                <div class="col-sm-3">meiner</div>
+            </div>
+        </div>
+        <br>
+        <p>Again, the root of <i>euer</i> changes into <i>eure</i> when something gets added.</p>
+
+
+        <h2>Building the Genitive Case</h2>
+        <p>Now you knwo how to say things like <i>your dog</i>, but what if you want to say <i>the dog's toy</i>? Then you'll need the genitive case. For this you need to do to things: First, you need to use the right article - like for subject, direct object and dative, also the genitive has it's own set of pronouns. Second, you need to add the genitive ending to some nouns.</p>
+        <p>First, let's take a look at the new articles:</p>
+
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Gender</b></div>
+                <div class="col-sm-3"><b>definite</b></div>
+                <div class="col-sm-3"><b>indefinite</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>masculine</b></div>
+                <div class="col-sm-3">des</div>
+                <div class="col-sm-3">eines</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>feminine</b></div>
+                <div class="col-sm-3">der</div>
+                <div class="col-sm-3">einer</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>neuter</b></div>
+                <div class="col-sm-3">des</div>
+                <div class="col-sm-3">eines</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>plural</b></div>
+                <div class="col-sm-3">der</div>
+                <div class="col-sm-3">//</div>
+            </div>
+        </div>
+        <br>
+        <p>Not that bad, right? Now you just need to build the genitive form of the noun.</p>
+        <b>Good news first: Feminine and plural nouns don't change in the genitive! Just use the right article and the root noun/the plural after the thing that belongs to them:</b>
+
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3">Ich sehe das Buch <b>der Frau</b>.</div>
+                <div class="col-sm-9"><i>I see the woman's book.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">Das Haus <b>der Familie</b> ist groß.</div>
+                <div class="col-sm-3"><i>The family's house is big.</i></div>
+            </div>
+        </div>
+        <br>
+
+        <p>Maskuline and neuter nouns get the ending <i>-(e)s</i>. You add an <i>-es</i> if the noun has only one syllable, or ends with <i> - s, - ss, - ß, - tz, - x or - z</i>, or ends with <i>-nis</i> - in that case you double the <i>s</i>.</p>
+        <p>Some examples:</p>
+
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3">Ich sehe das Buch <b>des Mannes</b>.</div>
+                <div class="col-sm-9"><i>I see the man's book.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">Das Haus <b>des Mädchens</b> ist groß.</div>
+                <div class="col-sm-3"><i>The girl's house is big.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">Die Katze spielt mit dem Spielzeug <b>des Hundes</b>.</div>
+                <div class="col-sm-3"><i>The cat plays with the dog's toy.</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3">Die Farbe <b>des Glases</b> ist schön.</div>
+                <div class="col-sm-3"><i>The color of the glass is beautiful.</i></div>
+            </div>
+        </div>
+        <br>
+
+        <h2>Proper Nouns</h2>
+        <p>Other than with normal nouns, proper nouns go before the thing they own when building the genitive. Also, they always get the ending <i>-s</i>, except for if the name ends with <i>-s, -tz, -x or -z</i>, in that cases, you just write an ' after the name:</p>
+
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Annas</b> Buch</div>
+                <div class="col-sm-9"><i>Anna's book</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Hans'</b> Buch</div>
+                <div class="col-sm-3"><i>Hans' book</i></div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

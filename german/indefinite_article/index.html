@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse in" aria-expanded="true" id="homeSubmenu">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li class="active">
+                            <a href="">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+        <h3 class="title-page">Lesson 3: Indefinite Article & more Conjugation</h3>
+        <p>In this lesson you will learn some more details about concepts which were introduced in the last lesson. You will learn about the indefinite article and some more irregular conjugation patterns.</p>
+        
+        <h2>Indefinite Article</h2>
+        <p>In the last lesson you learned about the <i>definite article</i> - <b>the</b>, or in german <b>der, die & das</b>. But of course the german language also as a translation for the <i>indefinite article</i>, in english <b>a/an</b>. Good news: It doesn't has as much forms as the one you learned last lesson! The following table shows the forms in the noun cases we already know:</p>
+        <div class="container-fluid learning">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-6"><b>Akkusativ</b> (Direct Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Masculine</b></div>
+                <div class="col-sm-3">ein</div>
+                <div class="col-sm-6">einen</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Feminine</b></div>
+                <div class="col-sm-3">eine</div>
+                <div class="col-sm-6">eine</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Neuter</b></div>
+                <div class="col-sm-3">ein</div>
+                <div class="col-sm-6">ein</div>
+            </div>
+        </div>
+        <br>
+
+        <p>Let's look at the examples from last lesson, but this time with the indefinite article we just learned:</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><b>Noun</b></div>
+                <div class="col-sm-3"><b>Nominativ</b> (Subject)</div>
+                <div class="col-sm-3"><b>Akkusativ</b> (Direct Object)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Masculine</b></div>
+                <div class="col-sm-3"><b>ein</b> Apfel (an apple)</div>
+                <div class="col-sm-3"><b>Ein</b> Apfel ist lecker. (<i>An apple is tasty.</i>)</div>
+                <div class="col-sm-3">Ich esse <b>einen</b> Apfel. (<i>I eat an apple.</i>)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Feminine</b></div>
+                <div class="col-sm-3"><b>eine</b> Pizza (a pizza)</div>
+                <div class="col-sm-3"><b>Eine</b> Pizza ist lecker. (<i>A pizza is tasty.</i>)</div>
+                <div class="col-sm-3">Ich esse <b>eine</b> Pizza. (<i>I eat a pizza.</i>)</div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>Neuter</b></div>
+                <div class="col-sm-3"><b>ein</b> Brot (a bread)</div>
+                <div class="col-sm-3"><b>Ein</b> Brot ist lecker. (<i>A bread is tasty.</i>)</div>
+                <div class="col-sm-3">Ich esse <b>ein</b> Brot. (<i>I eat a bread.</i>)</div>
+            </div>
+        </div>
+        <br>
+        
+        <p>One last thing about that topic: Like in english, a noun can sometimes also be used without the article. Probalby with some sentences you already were a bit confused, for example about why I wrote <b>Ich esse eine/die Pizza</b> <i>(I ean a/the pizza)</i>, even though in english the more natural sounding option probably would just be <i>I eat pizza</i>. In german you can do that too - I just included the articles everywhere by now so you get used to the german ones. But <b>Ich esse Pizza</b> is correct too!</p>
+
+        <h2>More Irregular Conjugation Patterns</h2>
+        <p>Like I said in the last lesson, there are some more irregular conjugation patterns which we will learn in this lesson.</p>
+
+        <h4>Vowel change e -> ie</h4>
+        <p>This one is very similar to the irregular pattern you learned last lesson, where the <i>e</i> changes into an <i>i</i>, but here the <i>e</i> stays, turning the vowel into a long <i>i</i>-sound. An example is the verb <b>sehen</b> (to see):</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-12"><b>sehen</b> (to see), <b>Verb stem: seh-</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Singular</b></div>
+                <div class="col-sm-3">ich seh<b>e</b></div>
+                <div class="col-sm-6"><i>I see</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Singular</b></div>
+                <div class="col-sm-3">du <span class="red">sieh<b>st</b></span></div>
+                <div class="col-sm-6"><i>you see</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Singular</b></div>
+                <div class="col-sm-3">er/sie/es <span class="red">sieh<b>t</b></span></div>
+                <div class="col-sm-6"><i>he/she/it sees</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Plural</b></div>
+                <div class="col-sm-3">wir seh<b>en</b></div>
+                <div class="col-sm-6"><i>we see</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Plural</b></div>
+                <div class="col-sm-3">ihr seh<b>t</b></div>
+                <div class="col-sm-6"><i>you see</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Plural</b></div>
+                <div class="col-sm-3">sie seh<b>en</b></div>
+                <div class="col-sm-6"><i>they see</i></div>
+            </div>
+        </div>
+        <br>
+        <p>Other verbs that follow that pattern are for example lesen (to read), befehlen (to command) and stehlen (to steal).</p>
+        
+        <h4>Vowel change a -> ä</h4>
+        <p>With some verbs containing an <i>a</i>, that vowel changes into an <i>ä</i>. Like with the previous patterns, this change only happens in the second and third person singular. One example for this pattern is the verb <b>schlafen</b> (to sleep):</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-12"><b>schlafen</b> (to sleep), <b>Verb stem: schlaf-</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Singular</b></div>
+                <div class="col-sm-3">ich schlaf<b>e</b></div>
+                <div class="col-sm-6"><i>I sleep</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Singular</b></div>
+                <div class="col-sm-3">du <span class="red">schläf<b>st</b></span></div>
+                <div class="col-sm-6"><i>you sleep</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Singular</b></div>
+                <div class="col-sm-3">er/sie/es <span class="red">schläf<b>t</b></span></div>
+                <div class="col-sm-6"><i>he/she/it sleeps</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Plural</b></div>
+                <div class="col-sm-3">wir schlaf<b>en</b></div>
+                <div class="col-sm-6"><i>we sleep</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Plural</b></div>
+                <div class="col-sm-3">ihr schlaf<b>t</b></div>
+                <div class="col-sm-6"><i>you sleep</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Plural</b></div>
+                <div class="col-sm-3">sie schlaf<b>en</b></div>
+                <div class="col-sm-6"><i>they sleep</i></div>
+            </div>
+        </div>
+        <br>
+        <p>Other verbs that follow that pattern are for example fahren (to drive), backen (to bake - this one can also be conjugated regularly, it's a matter of taste here), graben (to dig), wachsen (to grow), halten (to hold), schlagen (to beat), lassen (to let), waschen (to wash) and fangen (to catch).</p>
+        
+        <h4>Vowel change au -> äu</h4>
+        <p>Lastly, with some verbs containing an <i>au</i>, that diphthong changes into an <i>äu</i>. Remember: <i>äu</i> is pronounced <i>oi</i>, so the sound changes significantly! Like with the previous patterns, this change only happens in the second and third person singular. One example for this pattern is the verb <b>laufen</b> (to walk):</p>
+        <div class="container-fluid example">
+            <div class="row dialog">
+                <div class="col-sm-12"><b>laufen</b> (to walk), <b>Verb stem: lauf-</b></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Singular</b></div>
+                <div class="col-sm-3">ich lauf<b>e</b></div>
+                <div class="col-sm-6"><i>I walk</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Singular</b></div>
+                <div class="col-sm-3">du <span class="red">läuf<b>st</b></span></div>
+                <div class="col-sm-6"><i>you walk</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Singular</b></div>
+                <div class="col-sm-3">er/sie/es <span class="red">läuf<b>t</b></span></div>
+                <div class="col-sm-6"><i>he/she/it walks</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>1. Person Plural</b></div>
+                <div class="col-sm-3">wir lauf<b>en</b></div>
+                <div class="col-sm-6"><i>we walk</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>2. Person Plural</b></div>
+                <div class="col-sm-3">ihr lauf<b>t</b></div>
+                <div class="col-sm-6"><i>you walk</i></div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-3"><b>3. Person Plural</b></div>
+                <div class="col-sm-3">sie lauf<b>en</b></div>
+                <div class="col-sm-6"><i>they walk</i></div>
+            </div>
+        </div>
+        <br>
+        
+        <h2>Exercises</h2>
+        <h4>1. Don't forget about pronunciation! Read the following poem</h4>
+        <div class="container-fluid">
+            <div class="row dialog">
+                <div class="col-sm-5">
+                    <p>Dunkel war’s, der Mond schien helle,<br>schneebedeckt die grüne Flur,<br>als ein Wagen blitzesschnelle,<br>langsam um die Ecke fuhr.</p>
+                </div>
+                <div class="col-sm-7">
+                    <i><p>Dark it was, the moon shone bright<br>The green meadow was covered with snow<br>When a waggon blazingly fast<br>Slowly took the corner.</p></i>
+                </div>
+            </div>
+            <div class="row dialog">
+                <div class="col-sm-5">
+                    <p>Drinnen saßen stehend Leute,<br>schweigend ins Gespräch vertieft,<br>als ein totgeschoss’ner Hase<br>auf der Sandbank Schlittschuh lief.</p>
+                </div>
+                <div class="col-sm-7">
+                    <i><p>Within sat standing people<br>Silently engrossed in conversation<br>A rabbit shot to death<br>Skated on a sandbar.</p></i>
+                </div>
+            </div>
+        </div>        
+        <audio controls>
+            <source src="../../audios/dunkel_wars.mp3" type="audio/mpeg">
+          Sorry - Ihr Browser hat keine Unterstützung für dieses Audio-Format.
+          </audio>
+        <p>(<i>Those are the first two paragraphs of a very famous german poem, written by an unknown person. There are a lot of different variations, so if you google it, you might find other wordings than I used for this exercise.</i>)</p>
+
+        <h4>2. Fill in the indefinitive articles in the following sentences and translate them into english</h4>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item first-item"><div class="row row-list">
+                <div class="col-sm-6">a) <span class="spoiler">Ein</span> Hund schläft.</div>
+                <div class="col-sm-6 spoiler">A dog sleeps.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">b) Wir lesen <span class="spoiler">ein</span> Buch.</div>
+                <div class="col-sm-6 spoiler">We read a book.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">c) <span class="spoiler">Eine</span> Katze sieht <span class="spoiler">einen</span> Mann.</div>
+                <div class="col-sm-6 spoiler">A cat sees a man.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">d) Sie backen <span class="spoiler">ein</span> Brot.</div>
+                <div class="col-sm-6 spoiler">They bake a bread.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">e) Ihr verfolgt <span class="spoiler">eine</span> Frau.</div>
+                <div class="col-sm-6 spoiler">You (pl.) follow a woman.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">f) <span class="spoiler">Ein</span> Mann lernt <span class="spoiler">eine</span> Sprache.</div>
+                <div class="col-sm-6 spoiler">A man learns a language.</div>
+              </div></li>
+              <li class="list-group-item last-item"><div class="row row-list">
+                <div class="col-sm-6">g) Sie essen <span class="spoiler">einen</span> Apfel.</div>
+                <div class="col-sm-6 spoiler">They eat an apple.</div>
+              </div></li>
+        </ul>
+
+        <h4>3. Translate the following sentences</h4>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item first-item"><div class="row row-list">
+                <div class="col-sm-6">a) A dog searches for a cat.</div>
+                <div class="col-sm-6 spoiler">Ein Hund sucht eine Katze.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">b) A cat searches for a dog.</div>
+                <div class="col-sm-6 spoiler">Eine Katze sucht einen Hund.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">c) She bakes a cake.</div>
+                <div class="col-sm-6 spoiler">Sie backt einen Kuchen.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">d) I sleep.</div>
+                <div class="col-sm-6 spoiler">Ich schlafe.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">e) He is a boy.</div>
+                <div class="col-sm-6 spoiler">Er ist ein Junge.</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">f) They see a woman.</div>
+                <div class="col-sm-6 spoiler">Sie sehen eine Frau.</div>
+              </div></li>
+              <li class="list-group-item last-item"><div class="row row-list">
+                <div class="col-sm-6">g) A woman sees a girl.</div>
+                <div class="col-sm-6 spoiler">Eine Frau sieht ein Mädchen.</div>
+              </div></li>
+        </ul>
+
+        <h4>4. Conjugate the following verbs and write one example sentence with them</h4>
+        <p>(<i>You can send your sentences to me on discord if you want me to correct them</i>)</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item first-item"><div class="row row-list">
+                <div class="col-sm-6">a) backen (to bake) (optionally conjugated like <i>schlafen</i>!</div>
+                <div class="col-sm-6 spoiler">ich backe, du backst/bäckst, er/sie/es backt/bäckt, wir backen, ihr backt, sie backen</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">b) lesen (to read) (conjugated like <i>sehen</i>!</div>
+                <div class="col-sm-6 spoiler">ich lese, du liest, er/sie/es liest, wir lesen, ihr lest, sie lesen</div>
+              </div></li>
+              <li class="list-group-item"><div class="row row-list">
+                <div class="col-sm-6">c) kaufen (to buy)</div>
+                <div class="col-sm-6 spoiler">ich kaufe, du kaufst, er/sie/es kauft, wir kaufen, ihr kauft, sie kaufen</div>
+              </div></li>
+              <li class="list-group-item last-item"><div class="row row-list">
+                <div class="col-sm-6">d) fangen (to catch) (conjugated like <i>schlafen</i>!</div>
+                <div class="col-sm-6 spoiler">ich fange, du fängst, er/sie/es fängt, wir fangen, ihr fangt, sie fangen</div>
+              </div></li>
+        </ul>
+    </div>
+</div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

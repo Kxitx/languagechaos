@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse" id="homeSubmenu" aria-expanded="false">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled in" aria-expanded="true" id="pageSubmenu">
+                        <li>
+                            <a href="/Na'vi/introduction">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/second">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li class="active">
+                            <a href="">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+            <h3 class="title-page">Exercises</h3>
+            <p><b>Kxì!</b> Here you can find a collection of exercises about various topics. The exercises build up on each other, so if you do for example the exercses from the adjective section, they might also include grammar from previous section. Also note that there are often several solutions to translate one sentence. In the most cases I will only offer one possible solution. If you are unsure if your solution maybe also is correct, don't hesitate and ask in the learner chat in discord!</p>
+            
+            <p><a href="/Na'vi/exercises/#writing">Writing Prompts</a> | <a href="/Na'vi/exercises/#simple">Simple Sentences</a> | <a href="/Na'vi/exercises/#pronouns">Pronouns</a> | <a href="/Na'vi/exercises/#transitivity">Transitivity & -l/-t</a> | <a href="/Na'vi/exercises/#dative">Indirect Objects with -ru</a> | <a href="/Na'vi/exercises/#be">Lu vs. 'efu vs. Tok</a> | <a href="/Na'vi/exercises/#plural">Plural & Lenition</a> | <a href="/Na'vi/exercises/#adjectives">Adjectives & Subclauses with a</a> | <a href="/Na'vi/exercises/#genitive">Possession: -yä & lu + -ru </a> | <a href="/Na'vi/exercises/#question">Questions</a> | <a href="/Na'vi/exercises/#adverb">Adverbs</a> | <a href="/Na'vi/exercises/#adpositions">Adpositions</a> | <a href="/Na'vi/exercises/#negation">Negation</a> | <a href="/Na'vi/exercises/#futa">f-words</a> | <a href="/Na'vi/exercises/#si">Modifying si-verbs</a> | <a href="/Na'vi/exercises/#infixes">Infixes</a> | <a href="/Na'vi/exercises/#conjunctions">Conjunctions</a> | <a href="/Na'vi/exercises/#topical">Topical</a> | <a href="/Na'vi/exercises/#numbers">Numbers</a></p>
+            
+            <h2 id="writing">1. Writing Prompts</h2>
+            <p>Everyone always says, you have to use the language to learn it. But what if you don’t feel confident enough to start writing with people in Na’vi?</p>
+
+            <h4>1.1 15 ideas you could use to practice your writing with</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Introduce yourself. What’s your name? What are your hobbies?.</span></li>
+                <li class="list-group-item">b) What have you done today? What do you plan tomorrow? What have you done yesterday?</li>
+                <li class="list-group-item">c) You have one day on Pandora: What will you do?</li>
+                <li class="list-group-item">d) Describe your last vacation.</li>
+                <li class="list-group-item">e) Describe a normal day in your life.</li>
+                <li class="list-group-item">f) Translate your favorite recipe into Na’vi. Try to use no english words, describe the missing words instead (Instead of carrot you could for example write ngima fkxen atxeptun)</li>
+                <li class="list-group-item">g) Translate your favorite song into Na’vi.</li>
+                <li class="list-group-item">h) Describe your favorite szene from the Avatar movie in Na’vi.</li>
+                <li class="list-group-item">i) What is your favorite book/movie/tv show? Describe what it is about.</li>
+                <li class="list-group-item">j) Describe your family.</li>
+                <li class="list-group-item">k) What is your favorite animal? Describe it and write down why you like it.</li>
+                <li class="list-group-item">l) If you were given three wishes, what would you wish for?</li>
+                <li class="list-group-item">m) Immagine you would be the eyktan of your society. What would you change?</li>
+                <li class="list-group-item">n) Why are you learning Na’vi?</li>
+                <li class="list-group-item last-item">o) Describe the last dream you remember</li>
+            </ul>
+
+            <p>Obviously, I cannot give solutions for this exercise as everyone will write another text. But feel free to send me (Tekre#3259) your text on discord - my DMs are open!</p>
+            
+            <h4>1.2 Some additional tips</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) You have a pet, a stuffed animal you like or just a potted plant which stands in your room? Start talking Na’vi to it.</span></li>
+                <li class="list-group-item">b) If you are bored, just look around a bit and try to describe what you see in Na’vi. You can write that down, talk to yourself or just think.</li>
+                <li class="list-group-item last-item">c) If you write a diary, try to do that in Na’vi. If you don’t write a diary, start writing a diary</li>
+            </ul>
+
+            <h2 id="simple">2. Simple Sentences</h2>
+            <h4>2.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Yerik yom. <span class="spoiler">The/A Yerik eats.</span></li>
+                <li class="list-group-item">b) Tìran ioang. <span class="spoiler">The/An animal walks.</span></li>
+                <li class="list-group-item">c) Taronyu txur lu. <span class="spoiler">The/A hunter is strong.</span></li>
+                <li class="list-group-item">d) Kä oe. <span class="spoiler">I go.</span></li>
+                <li class="list-group-item">e) Kilvan tswesya si. <span class="spoiler">The/A river flows.</span></li>
+                <li class="list-group-item">f) ‘eveng slu taronyu. <span class="spoiler">The/A child becomes a hunter.</span></li>
+                <li class="list-group-item last-item">g) Tsawke lrrtok si. <span class="spoiler">The sun smiles. <i>That's the Na'vi way to say that the sun is shining!</i></span></li>
+            </ul>
+
+            <h4>2.2 Translate the following sentences to Na'vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I am drunk. <span class="spoiler">Oe rou. / Rou oe.</span></li>
+                <li class="list-group-item">b) He walks. <span class="spoiler">Po tìran. / Tìran po.</span></li>
+                <li class="list-group-item">c) The cat drinks. <span class="spoiler">Palulukantsyìp näk. / Näk palulukantsyìp.</span></li>
+                <li class="list-group-item">d) You sleep. <span class="spoiler">Nga hahaw. / Hahaw nga.</span></li>
+                <li class="list-group-item">e) The house burns. <span class="spoiler">Kelku palon. / Palon kelku.</span></li>
+                <li class="list-group-item last-item">f) She is fast. <span class="spoiler">Po lu win. / Win lu po. / Lu po win. / ...</span></li>
+            </ul>
+
+            <h2 id="pronouns">3. Pronouns</h2>
+            <h4>3.1 Fill the table with pronouns. Note: Not every cell needs to be filled, because there is not for every pronoun an incluse and an exclusive form!</h4>
+            <br><div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5"><b>Exclusive</b></div>
+                    <div class="col-sm-5"><b>Inclusive</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1"><b>Sing.</b></div>
+                    <div class="col-sm-1"><b>Dual</b></div>
+                    <div class="col-sm-1"><b>Trial</b></div>
+                    <div class="col-sm-2"><b>Plural</b></div>
+                    <div class="col-sm-1"><b>Sing.</b></div>
+                    <div class="col-sm-1"><b>Dual</b></div>
+                    <div class="col-sm-1"><b>Trial</b></div>
+                    <div class="col-sm-2"><b>Plural</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-2"><b>1st person (I/we)</b></div>
+                    <div class="col-sm-1"><span class="spoiler">oe</span></div>
+                    <div class="col-sm-1"><span class="spoiler">moe</span></div>
+                    <div class="col-sm-1"><span class="spoiler">pxoe</span></div>
+                    <div class="col-sm-2"><span class="spoiler">ayoe</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">oeng</span></div>
+                    <div class="col-sm-1"><span class="spoiler">pxoeng</span></div>
+                    <div class="col-sm-2"><span class="spoiler">ayoeng/awnga</span></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-2"><b>2nd person (you)</b></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-2"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">nga</span></div>
+                    <div class="col-sm-1"><span class="spoiler">menga</span></div>
+                    <div class="col-sm-1"><span class="spoiler">pxenga</span></div>
+                    <div class="col-sm-2"><span class="spoiler">aynga</span></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-2"><b>3rd person ((s)he)/they)</b></div>
+                    <div class="col-sm-1"><span class="spoiler">po</span></div>
+                    <div class="col-sm-1"><span class="spoiler">mefo</span></div>
+                    <div class="col-sm-1"><span class="spoiler">pxefo</span></div>
+                    <div class="col-sm-2"><span class="spoiler">(ay)fo</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-1"><span class="spoiler">////</span></div>
+                    <div class="col-sm-2"><span class="spoiler">////</span></div>
+                </div>
+            </div>
+
+            <h4>3.2 What is the difference between the inclusive and the exclusive forms?</h4>
+            <p><span class="spoiler">'Inclusive' means that the person you are talking to is included, while 'exclusive' means they are not. So for example, if I talk to you about something we two did together, I would use the inclusive 'oeng', while when I would talk to you about what I did together with another person, I would use the exclusive 'moe' because you are not part of the 'we'.</span></p>
+
+            <h4>3.3 Which pronoun do you need in the following situations?</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) You are swimming with two friends. Another person appears and asks you, what you are doing. You say that you and your two friends are swimming. <span class="spoiler">pxoe</span></li>
+                <li class="list-group-item">b) You are talking with another person and want to propose that you two could eat together. <span class="spoiler">oeng</span></li>
+                <li class="list-group-item">c) You see four of your friends and ask them what they are doing. <span class="spoiler">aynga</span></li>
+                <li class="list-group-item">d) You tell someone something about a group of people. <span class="spoiler">(ay)fo</span></li>
+                <li class="list-group-item last-item">e) You want to propose to your 4 colleagues that you all could meet for a drink after work. <span class="spoiler">aoeng/awnga</span></li>
+            </ul>
+
+            <h2 id="transitivity">4. Transitivity, -l & -t</h2>
+            <h4>4.1 Try to answer without looking into the dictionary: Is the verb transitive or intransitive? Build a sentence with every transitive verb.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-2">a) fwew <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">b) nume <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">c) sunu <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">d) nìn <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">e) yom <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">f) tìng <span class="spoiler">vtr</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-2">g) pey <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">h) omum <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">i) fwew <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">j) tìran <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">k) laro si <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">l) wìntxu <span class="spoiler">vtr</span></div>
+                </div></li>
+            </ul>
+            
+            <h4>4.2 Mark subject and object in the following sentences.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Ngal tsrayti tok. <span class="spoiler">Subject: <b>ngal</b>, Object: <b>tsray</b> - You are in the village.</span></li>
+                <li class="list-group-item">b) Pukti ngal fwew. <span class="spoiler">Subject: <b>ngal</b>, Object: <b>pukti</b> - You search for the book.</span></li>
+                <li class="list-group-item">c) Taronyut tspang smarìl. <span class="spoiler">Subject: <b>smarìl</b>, Object: <b>taronyut</b> - The prey kills the hunter.</span></li>
+                <li class="list-group-item">d) Yom fkxenit ngal. <span class="spoiler">Subject: <b>ngal</b>, Object: <b>fkxenit</b> - You eat vegetables.</span></li>
+                <li class="list-group-item last-item">e) Tsat oel omum. <span class="spoiler">Subject: <b>oel</b>, Object: <b>tsat</b> - I know that.</span></li>
+            </ul>
+            
+            <h4>4.3 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Taronyul yerikit nongspe’. <span class="spoiler">The hunter pursue the yerik.</span></li>
+                <li class="list-group-item">b) Awngal yune pamtseoti. <span class="spoiler">We all listen to music.</span></li>
+                <li class="list-group-item">c) Taronyul taron smarti. <span class="spoiler">The hunter hunts the prey.</span></li>
+                <li class="list-group-item">d) Yom wutsoti oel. <span class="spoiler">I eat the meal.</span></li>
+                <li class="list-group-item last-item">e) Nantangtsyìpìl nìn zize’ti. <span class="spoiler">The dog watches the wasp.</span></li>
+            </ul>
+            
+            <h4>4.4 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The dog searches for food. <span class="spoiler">Fwew syuveti nantangtsyìpìl.</span></li>
+                <li class="list-group-item">b) The man says a word. <span class="spoiler">Plltxe tutanìl lì'ut.</span></li>
+                <li class="list-group-item">c) I find a flower. <span class="spoiler">Oel run syulangti.</span></li>
+                <li class="list-group-item">d) They follow the animal. <span class="spoiler">Ioangit (ay)fol nong.</span></li>
+                <li class="list-group-item last-item">e) The leader kills the enemy. <span class="spoiler">Tspang kxututi eyktanìl.</span></li>
+            </ul>
+
+            <h4>4.5 Find the mistakes in the following sentences.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Yerik palulukanìl taron. <span class="spoiler">Yerik -> Yerik<b>it</b>/Yerik<b>ti</b></span></li>
+                <li class="list-group-item">b) Oeti inan pukìl. <span class="spoiler">Oe<b>l</b> inan puk<b>it</b>.</span></li>
+                <li class="list-group-item">c) Taronyu taron ioang. <span class="spoiler">Taronyu<b>l</b> taron ioang<b>it</b>. / Taronyu<b>t</b> taron ioang<b>ìl</b>.</span></li>
+                <li class="list-group-item">d) Tse’al oe ngati. <span class="spoiler">Tse'a oel ngati. <i>Verbs can never take case endings!</i></span></li>
+                <li class="list-group-item last-item">e) Oel nume lì’fyati. <span class="spoiler">Lì'fyari oe nume. / Oel ftia lì'fyati. <i>'nume' is intransitive and therefore cannot use -l/-t. We use the topical -(ì)ri instead.</i></span></li>
+            </ul>
+
+            <h2 id="dative">5. Indirect Objects with -ru</h2>
+            <h4>5.1 -ru vs. -l & -t: Fill out the gaps with -l, -t & -ru. Note: Not every gap needs to be filled! Some sentences have two possible solutions.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Nga<span class="spoiler">l</span> ioang<span class="spoiler">it</span> taron<span class="spoiler">//</span>. <span class="spoiler">You hunt the animal. Alternative solution: <i>Ngat(i) ioangìl taron.</i> - The animal hunts you.</span></li>
+                <li class="list-group-item">b) Oe<span class="spoiler">l</span> fya'o<span class="spoiler">t(i)</span> nga<span class="spoiler">r(u)</span> wìntxu. <span class="spoiler">I show you the way. Alternative solution: <i>Oer(u) fya'ot(i) ngal wìntxu.</i> - You show me the way.</span></li>
+                <li class="list-group-item">c) Peyral<span class="spoiler">//</span> pey<span class="spoiler">//</span>. <span class="spoiler">Peyral waits.</span></li>
+                <li class="list-group-item">d) Nga<span class="spoiler">l</span> tsray<span class="spoiler">ti</span> tok<span class="spoiler">//</span>. <span class="spoiler">You are in the village.</span></li>
+                <li class="list-group-item">e) Nga<span class="spoiler">//</span> srung<span class="spoiler">//</span> si<span class="spoiler">//</span> oe<span class="spoiler">r(u)</span>. <span class="spoiler">You help me. Alternative solution: <i>Ngar(u) srung si oe.</i> - I help you.</span></li>
+                <li class="list-group-item">f) Po<span class="spoiler">//</span> skxawng<span class="spoiler">//</span> lu<span class="spoiler">//</span>. <span class="spoiler">He/She is a moron.</span></li>
+                <li class="list-group-item">g) Mokri<span class="spoiler">t</span> stawm<span class="spoiler">//</span> oe<span class="spoiler">l</span>. <span class="spoiler">I hear a voice.</span></li>
+                <li class="list-group-item last-item">h) Lom<span class="spoiler">//</span> lu<span class="spoiler">//</span> pxefo<span class="spoiler">r(u)</span> nga<span class="spoiler">//</span>. <span class="spoiler">The three of them miss you. Alternative solution: <i>Lom lu pxefo ngar(u).</i> - You miss the three of them.</span></li>
+            </ul>
+            
+            <h4>5.2 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Awngal pxeforu fmawnit peng. <span class="spoiler">We all tell the three of them the news.</span></li>
+                <li class="list-group-item">b) Oengaru sunu tompa. <span class="spoiler">We two like rain. / lit. <i>Rain is pleasing to us two.</i></span></li>
+                <li class="list-group-item">c) Po lom lu nantangtsyìpur. <span class="spoiler">The dog misses him/her. / lit. <i>He/she is missed to the dog.</i></span></li>
+                <li class="list-group-item">d) Fo pxoengur kaltxì si. <span class="spoiler">They greet the three of us.</span></li>
+                <li class="list-group-item">e) Ngal oeru pukit tìng. <span class="spoiler">You give me the book.</span></li>
+                <li class="list-group-item">f) Sa’nokìl oeru fya’ot wìntxu. <span class="spoiler">The mother shows me the way.</span></li>
+                <li class="list-group-item">g) Nga yawne lu oeru. <span class="spoiler">I love you. / lit. <i>You are beloved to me.</i></span></li>
+                <li class="list-group-item last-item">h) Oeru fko syaw Neytiri. <span class="spoiler">My name is Neytiri. / lit. <i>One calls to me Neytiri.</i></span></li>
+            </ul>
+
+            <h4>5.3 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I give the animal food. <span class="spoiler">Ioangur oel syuveti tìng.</span></li>
+                <li class="list-group-item">b) He teaches me the language. <span class="spoiler">Kar lì'fyat oeru pol.</span></li>
+                <li class="list-group-item">c) The hunter trusts him. <span class="spoiler">Po taronyuru lu mal.</span></li>
+                <li class="list-group-item">d) She has a bow. <span class="spoiler">Poru lu tsko.</span></li>
+                <li class="list-group-item">e) We clean the house. <span class="spoiler">Awnga kelkuru laro si.</span></li>
+                <li class="list-group-item last-item">f) For me this exercise is easy. <span class="spoiler">Oeru fìtskxekeng ftue lu.</span></li>
+            </ul>
+
+            <h2 id="be">6. Lu vs. tok vs. ‘efu</h2>
+            <h4>6.1 Are the following sentences correct or wrong? If a sentence is wrong, correct it.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Tsayerik lu win. <span class="spoiler">The sentence is correct!</span></li>
+                <li class="list-group-item">b) Lu väng oe. <span class="spoiler">The sentence is wrong: <i><u>'efu</u> oe väng.</i></span></li>
+                <li class="list-group-item">c) Pol taronyuti ‘efu. <span class="spoiler">Wrong: <i>Po taronyu <u>lu</u>.</i></span></li>
+                <li class="list-group-item">d) Tok fol kelkuti. <span class="spoiler">This sentence is perfectly fine! No need to correct it.</span></li>
+                <li class="list-group-item last-item">e) Lu oe fìtsenge. <span class="spoiler">Wrong: <i><u>Tok</u> oel fìtsengti.</i></span></li>
+            </ul>
+
+            <h4>6.2 Insert lu, ‘efu or tok.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) <span class="spoiler">Lu</span> lor syulang. <span class="spoiler">The flower is beautiful.</span></li>
+                <li class="list-group-item">b) Taronyu poe <span class="spoiler">lu</span>. <span class="spoiler">She is a hunter.</span></li>
+                <li class="list-group-item">c) Oe <span class="spoiler">'efu</span> spxin. <span class="spoiler">I feel sick. Note: It is also possible to use <i>lu</i> here - being sick vs. feeling sick.</span></li>
+                <li class="list-group-item">d) ‘orati payoangìl <span class="spoiler">tok</span>. <span class="spoiler">The fish is in the lake.</span></li>
+                <li class="list-group-item last-item">e) Tìohakxit oel <span class="spoiler">'efu</span>. <span class="spoiler">I am hungry.</span></li>
+            </ul>
+
+            <h4>6.3 Translate the following sentences to Na’vi. Explain why you have chosen lu/’efu/tok</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The air is cold. <span class="spoiler">Ya lu wew. <i>Air = cold -> we need 'lu'!</i></span></li>
+                <li class="list-group-item">b) Here are animals. <span class="spoiler">Fìtsengti tok ayioangìl. <i>The animals occupy space here -> we need 'tok'!</i></span></li>
+                <li class="list-group-item">c) The forest is big. <span class="spoiler">Apxa lu na'rìng. <i>Forest = big -> we need 'lu'!</i></span></li>
+                <li class="list-group-item">d) I am hungry. <span class="spoiler">'efu ohakx oe. / 'efu oel tìohakxit. <i>Hunger is something we feel -> we need ''efu'!</i></span></li>
+                <li class="list-group-item last-item">e) The hunter is in the forest. <span class="spoiler">Taronyul na'rìngti tok. <i>The hunter occupies space in the forest -> we need 'tok'!</i></span></li>
+            </ul>
+
+            <h2 id="plural">7. Plural & Lenition</h2>
+            <h4>7.1 Bild all three plural forms for the following words.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-3">a) yayo (<i>bird</i>) <span class="spoiler">meyayo, pxeyayo, ayyayo</span></div>
+                    <div class="col-sm-3">b) 'rrta (<i>planet Earth</i>)<span class="spoiler">me'rrta, pxe'rrta, ay'rrta</span></div>
+                    <div class="col-sm-3">c) tsmuk (<i>sibling</i>) <span class="spoiler">mesmuk, pxesmuk, (ay)smuk</span></div>
+                    <div class="col-sm-3">d) nari (<i>eye</i>) <span class="spoiler">menari, pxenari, aynari</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-3">e) tstxo (<i>name</i>) <span class="spoiler">mestxo, pxestxo, (ay)stxo</span></div>
+                    <div class="col-sm-3">f) kxeyey (<i>mistake</i>) <span class="spoiler">mekeyey, pxekeyey, (ay)keyey</span></div>
+                    <div class="col-sm-3">g) pam (<i>sound</i>) <span class="spoiler">mefam, pxefam, (ay)fam</span></div>
+                    <div class="col-sm-3">h) na'rìng (<i>forest</i>) <span class="spoiler">mena'rìng, pxena'rìng, ayna'rìng</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-3">i) 'eveng (<i>child</i>) <span class="spoiler">meveng, pxeveng, (ay)eveng</span></div>
+                    <div class="col-sm-3">j) koren (<i>rule</i>) <span class="spoiler">mehoren, pxehoren, (ay)horen</span></div>
+                    <div class="col-sm-3">k) uvan (<i>game</i>) <span class="spoiler">meuvan, pxeuvan, ayuvan</span></div>
+                    <div class="col-sm-3">l) ikran (<i>banshee</i>) <span class="spoiler">meikran, pxeikran, ayikran</span></div>
+                </div></li>
+            </ul>
+
+            <h4>7.2 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Pxeylan rol. <span class="spoiler">Three friends sing.</span></li>
+                <li class="list-group-item">b) Ayfkxen ftxìlor lu. <span class="spoiler">Vegetables are delicious.</span></li>
+                <li class="list-group-item">c) Sunu ayikranur payoang. <span class="spoiler">The ikrans like fish.</span></li>
+                <li class="list-group-item">d) Fayoangit tse’a oel. <span class="spoiler">I see fish.</span></li>
+                <li class="list-group-item last-item">e) Menantangìl ayyerikit nongspe’. <span class="spoiler">Two nantangs pursue the yeriks.</span></li>
+            </ul>
+
+            <h4>7.3 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The three hunters hunt the animals. <span class="spoiler">Taron ayioangit pxesaronsul.</span></li>
+                <li class="list-group-item">b) I read two books. <span class="spoiler">Oel mefukit inan.</span></li>
+                <li class="list-group-item">c) They eat berries. <span class="spoiler">Fasukit fol yom.</span></li>
+                <li class="list-group-item">d) The mother shows the three children plants. <span class="spoiler">Sa'nokìl pxevengur ayewllit wìntxu.</span></li>
+                <li class="list-group-item last-item">e) The children take care of three plants. <span class="spoiler">Vewng pxewllti ayevengìl.</span></li>
+            </ul>
+
+            <h4>7.4 Look up the following two words. What is special about them?</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) fil <span class="spoiler">This could be either the singular word <i>fil</i> which means 'toy', or it could be the short plural of <i>pil</i>, which means 'facial stripe'. So <i>fil</i>, based on context can have two meanings: A child's toy, or facial stripes.</span></li>
+                <li class="list-group-item last-item">b) pxen <span class="spoiler">Again this word can have two different meanings: Either an item of clothing (singular), or the trial of <i>'en</i>, 'guess', so 'three guesses'.</span></li>
+            </ul>
+
+            <h2 id="adjectives">8. Adjectives & Subclauses with a</h2>
+            <h4>8.1 Translate the following noun phrases to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The tall moron <span class="spoiler">tsawla skxawng / skxawng atsawl</span></li>
+                <li class="list-group-item">b) The clean house <span class="spoiler">laroa kelku / kelku alaro</span></li>
+                <li class="list-group-item">c) The beautiful flower <span class="spoiler">(nar)lora syulang / syulang a(nar)lor</span></li>
+                <li class="list-group-item">d) The yellow, big eyes <span class="spoiler">rima menari atsawl</span></li>
+                <li class="list-group-item">e) The strong hunter <span class="spoiler">txura taronyu / taronyu atxur</span></li>
+                <li class="list-group-item">f) The book that I read <span class="spoiler">puk a oel inan / inan oel a puk</span></li>
+                <li class="list-group-item">g) The animal that I see <span class="spoiler">ioang a tse'a oel / oel tse'a a ioang</span></li>
+                <li class="list-group-item">h) The animal that sees me <span class="spoiler">ioang a oeti tse'a / tse'a oet a ioang</span></li>
+                <li class="list-group-item">i) The interesting story <span class="spoiler">vur a eltur tìtxen si / eltur tìtxen si a vur</span></li>
+                <li class="list-group-item">j) The food that I like <span class="spoiler">syuve a oeru sunu / sunu oeru a syuve</span></li>
+                <li class="list-group-item last-item">k) The person which has a bow <span class="spoiler">tute a poru lu tsko / poru lu tsko a tute</span></li>
+            </ul>
+
+            <h4>8.2 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Oel tsawla yerikit nìn. <span class="spoiler">I watch the bit yerik.</span></li>
+                <li class="list-group-item">b) Mengal pukit a eltur tìtxen si inan. <span class="spoiler">You twoo read the interesting book.</span></li>
+                <li class="list-group-item">c) Nga laro si kelkuru atsewtx. <span class="spoiler">You clean the dirty house.</span></li>
+                <li class="list-group-item">d) Eana yayo a lu hì’i sì lor tswayon. <span class="spoiler">The blue bird which is small and beautiful flies.</span></li>
+                <li class="list-group-item">e) Oeru lu sìltsana tsko a pol oeru tìng. <span class="spoiler">I have a good bow which s/he gave to me.</span></li>
+                <li class="list-group-item">f) Oel inan a puk lu ngaru. <span class="spoiler">You have the book that I read.</span></li>
+                <li class="list-group-item">g) Oel tse’a a nantangìl taron yerikit. <span class="spoiler">The nantang that I see hunts the yerik.</span></li>
+                <li class="list-group-item">h) Oel fwew fìpot a frrfen oel trram. <span class="spoiler">I search this person that I visited yesterday.</span></li>
+                <li class="list-group-item">i) Tsawla palulukanit a poti ‘eko trram oel fwew. <span class="spoiler">I search the big thanator that attacked him/her yesterday.</span></li>
+                <li class="list-group-item">j) Fayyerik a tul lu win. <span class="spoiler">These yeriks which run are fast.</span></li>
+                <li class="list-group-item">k) Fayfuk a eltur tìtxen si lu oeru. <span class="spoiler">I have these interesting books.</span></li>
+                <li class="list-group-item">l) Taronyuru a pey layon sì hì’i lu a tskoti pol a ‘efu tìohakxit tìng ulte nìn poti. <span class="spoiler">S/he who is hungry gives the bow which is small and black to the hunter who waits, and watches him/her.</span></li>
+                <li class="list-group-item">m) Lemweypeya taronyu asìltsan lu a Neytiri pey. <span class="spoiler">Neytiri, who is a good, patient hunter, waits.</span></li>
+                <li class="list-group-item last-item">n) Narlora Neytiril a lu taronyu asìltsan oeru oel ke tslam a fìlì'fyati kar. <span class="spoiler">The beautiful Neytiri who is a good hunter teaches me the language which I do not understand.</span></li>
+            </ul>
+
+            <h4>8.3 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I look at the big, blue animal. <span class="spoiler">Oel tsawla ioangti aean nìn.</span></li>
+                <li class="list-group-item">b) The fast hunter which is strong and smart eats fruit. <span class="spoiler">Mautiti yom wina taronyul a lu txur sì kanu.</span></li>
+                <li class="list-group-item">c) The small, young child sees a beautiful, yellow flower. <span class="spoiler">Hì'ia 'evengìl a'ewan narlora syulangti arim tse'a.</span></li>
+                <li class="list-group-item">d) He shows the big green plant to the old man. <span class="spoiler">Pol tsawla 'ewllit aean koaktanur.</span></li>
+                <li class="list-group-item last-item">e) The person who waits gives me the black bow which I like. <span class="spoiler">Tutel a pey oeru layona tskoti a sunu oeru tìng.</span></li>
+            </ul>
+
+            <h2 id="genitive">9. Possession: -yä & lu + -ru</h2>
+            <h4>9.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Fìtseng lu awngeyä! <span class="spoiler">This place is our!</span></li>
+                <li class="list-group-item">b) Fwew oel ngeyä sa’nokit. <span class="spoiler">I search for your mother.</span></li>
+                <li class="list-group-item">c) Peyä sa’nokä tsmukan lu taronyu asìltsan. <span class="spoiler">The brother of his/her mother is a good hunter.</span></li>
+                <li class="list-group-item">d) ‘evengìl wìntxu smukur oeyä pxerelit peyä. <span class="spoiler">The child shows his/her three pictures to my sibling.</span></li>
+                <li class="list-group-item last-item">e) Pol syuvet peyä yom. <span class="spoiler">S/he eats his/her food.</span></li>
+            </ul>
+
+            <h4>9.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I put on my black shoes. <span class="spoiler">Oel mehawnventi alayon yemstokx.</span></li>
+                <li class="list-group-item">b) You see your mother. <span class="spoiler">Ngal ngeyä sa'nokit tse'a.</span></li>
+                <li class="list-group-item">c) I eat their meal. <span class="spoiler">Oel wutsoti feyä yom.</span></li>
+                <li class="list-group-item">d) They have many cute cats. <span class="spoiler">Pxaya palulukantsyìp ahona lu foru.</span></li>
+                <li class="list-group-item">e) My sister’s children are young. <span class="spoiler">Oeyä tsmukeyä eveng lu 'ewan.</span></li>
+                <li class="list-group-item">f) I want your bow. <span class="spoiler">Tskoti ngeyä oel new.</span></li>
+                <li class="list-group-item">g) I hear his voice. <span class="spoiler">Stawm oel mokrit peyä.</span></li>
+                <li class="list-group-item">h) The ideas that he has are good. <span class="spoiler">Aysäfpìl a poru lu sìltsan lu.</span></li>
+                <li class="list-group-item">i) She rides my Pa’li. <span class="spoiler">Pa'lit oeyä pol makto.</span></li>
+                <li class="list-group-item last-item">j) They read my fathers book. <span class="spoiler">Inan fol pukit sempulä oeyä.</span></li>
+            </ul>
+
+            <h4>9.3 Fill the gaps with -yä, -ru, -l & -t. Not every gap needs to be filled!</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Sa’nok<span class="spoiler">ìl</span> fwew<span class="spoiler">//</span> puk<span class="spoiler">it</span> oe<span class="spoiler">yä</span>. <span class="spoiler">The mother searches for my book.</span></li>
+                <li class="list-group-item">b) Lu<span class="spoiler">//</span> mefo<span class="spoiler">ru</span> puk<span class="spoiler">//</span> a<span class="spoiler">//</span> tsmuk<span class="spoiler">ìl</span> oe<span class="spoiler">yä</span> inan<span class="spoiler">//</span>. <span class="spoiler">The two of them have the book which my sibling reads.</span></li>
+                <li class="list-group-item">c) Sunu<span class="spoiler">//</span> nantang<span class="spoiler">ur</span> sur<span class="spoiler">//</span> payoang<span class="spoiler">ä</span>. <span class="spoiler">The Nantang likes the taste of the fish.</span></li>
+                <li class="list-group-item">d) Taronyu<span class="spoiler">ru</span> oe<span class="spoiler">l</span> tìng<span class="spoiler">//</span> eyktan<span class="spoiler">ä</span> tstal<span class="spoiler">it</span>. <span class="spoiler">I give the leader's knife to the hunter. Alternative solution: <i>Taronyul oeru tìng eyktanä tstalit.</i> - The hunter gives me the leader's knife.</span></li>
+                <li class="list-group-item last-item">e) Oe<span class="spoiler">ru</span> lu<span class="spoiler">//</span> fpom<span class="spoiler">//</span>. <span class="spoiler">I'm fine. lit.: <i>I have wellbeing.</i></span></li>
+            </ul>
+
+            <h2 id="question">10. Questions</h2>
+            <h4>10.1 Write down the correct question word and build a question with it. Try to not look them up! How are the different question words built up?</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Who <span class="spoiler">Pesu/Tupe from <i>tute</i> (person) - lit.: <i>Which person?</i> Example sentence: <i>Pesul wutsoti 'em fìtrr?</i> - Who cooks the meal today?</span></li>
+                <li class="list-group-item">b) Where <span class="spoiler">Pesenge/Tsengpe from <i>tseng(e)</i> (place) - lit.: <i>Which place?</i> Example sentence: <i>Kä po pesengne?</i> - Where does s/he go?</span></li>
+                <li class="list-group-item">c) What (action) <span class="spoiler">Pehem/Kempe from <i>kem</i> (action) - lit.: <i>Which action?</i> Example sentence: <i>Pehem si nga?</i> - What do you do?</span></li>
+                <li class="list-group-item">d) What (thing) <span class="spoiler">Peu/'upe from <i>'u</i> (thing) - lit.: <i>Which thing?</i> Example sentence: <i>Tsaw peu lu?</i> - What is that?</span></li>
+                <li class="list-group-item">e) Why <span class="spoiler">Pelun/Lumpe from <i>lun</i> (reason) - lit.: <i>Which reason?</i> Example sentence: <i>Nga tsakem soli pelun?</i> - Why did you do that?</span></li>
+                <li class="list-group-item">f) How <span class="spoiler">Pefya/Fyape from <i>fya'o</i> (way) - lit.: <i>Which way?</i> Example sentence: <i>Pol pefya taron palulukanti?</i> - How does s/he hunt the palulukan?</span></li>
+                <li class="list-group-item last-item">g) When <span class="spoiler">Pehrr/Krrpe from <i>krr</i> (time) - lit.: <i>Which time?</i> Example sentence: <i>Oeng ultxa si pehrr trray?</i> - When will we meet tomorrow?</span></li>
+            </ul>
+            
+            <h4>10.2 Translate the following questions to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Fyape fol ayfayoangit taron? <span class="spoiler">How do they hunt the fish?</span></li>
+                <li class="list-group-item">b) Ngaru yawne lu oe srak? <span class="spoiler">Do you love me?</span></li>
+                <li class="list-group-item">c) Srake poanur sunu ayrel? <span class="spoiler">Does he like pictures?</span></li>
+                <li class="list-group-item">d) New ngal fu fkxenit fu tsnganit? <span class="spoiler">Do you want vegetable or meat? <i>Choose one.</i></span></li>
+                <li class="list-group-item">e) Srake new ngal fkxenit fu tsnganit? <span class="spoiler">Do you want vegetable or meat? <i>Yes/No question, answer with yes if you want any of these.</i></span></li>
+                <li class="list-group-item">f) Kempe si nga? <span class="spoiler">What do you do?</span></li>
+                <li class="list-group-item last-item">g) Pesu eyktan lu? <span class="spoiler">Who is the leader?</span></li>
+            </ul>
+            
+            <h4>10.3 Translate the following questions to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) How are you? <span class="spoiler">Ngaru lu fpom srak?</span></li>
+                <li class="list-group-item">b) Where are the children? <span class="spoiler">Ayevengìl tok pesengti?</span></li>
+                <li class="list-group-item">c) How do you cook the vegetables? <span class="spoiler">Pefya ngal ayfkxenit 'em?</span></li>
+                <li class="list-group-item">d) Why do they come? <span class="spoiler">Fo za'u pelun?</span></li>
+                <li class="list-group-item">e) Which book do you read? <span class="spoiler">Pefukit ngal inan?</span></li>
+                <li class="list-group-item">f) Which animals do they see? <span class="spoiler">Tse'a fol payioangti?</span></li>
+                <li class="list-group-item">g) Which book do you give me? <span class="spoiler">Ngal oeru pefukit tìng?</span></li>
+                <li class="list-group-item">h) Why does she love him? <span class="spoiler">Pelun poeru poan yawne lu?</span></li>
+                <li class="list-group-item">i) When do we meet? <span class="spoiler">Pehrr ultxa si oeng?</span></li>
+                <li class="list-group-item">j) The food is hot, right? <span class="spoiler">Syuve txasom lu kefyak?</span></li>
+                <li class="list-group-item">k) Why do you hunt the palulukan? <span class="spoiler">Ngal palulukanit taron pelun?</span></li>
+                <li class="list-group-item">l) Do you like fish? <span class="spoiler">Srake ngaru sunu payoang?</span></li>
+                <li class="list-group-item">m) Is he a good leader? <span class="spoiler">Po eyktan asìltsan lu srak?</span></li>
+                <li class="list-group-item">n) Who is the woman who waits there? <span class="spoiler">Pesu lu tuté a fìtseng pey?</span></li>
+                <li class="list-group-item last-item">o) Do you see yeriks or nantangs? <span class="spoiler">Tse'a ngal fu ayyerikit fu aynantangit?</span></li>
+            </ul>
+            
+            <h2 id="adverb">11. Adverbs</h2>
+            <h4>11.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Tsyeykìl tspang yerìkit nìwin <span class="spoiler">Jake kills the yerik fast.</span></li>
+                <li class="list-group-item">b) Nume numeyu a ftia pxìm nìwin nìtxan. <span class="spoiler">A student who studies often learns very fast.</span></li>
+                <li class="list-group-item">c) Po plltxe nìfnu nìtxan nìkeftxo. <span class="spoiler">Sadly he talksvery quietly.</span></li>
+                <li class="list-group-item">d) Sempul oeru irayo si nìli. <span class="spoiler">The father thanks me in advance.</span></li>
+                <li class="list-group-item">e) Nìyeyfya ayikranay tswayon. <span class="spoiler">The ikran fly in a straight line.</span></li>
+                <li class="list-group-item last-item">f) Hena ‘evil rumit nìktungzup. <span class="spoiler">The child carries the ball carefully.</span></li>
+            </ul>
+
+            <h4>11.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The nantang runs fast. <span class="spoiler">Nantang tul nìwin.</span></li>
+                <li class="list-group-item">b) Today the hunter eats very often. <span class="spoiler">Fìtrr taronyu yom pxìm nìtxan.</span></li>
+                <li class="list-group-item">c) Finally they see more animals which silently walk. <span class="spoiler">Fol nì'ul ayioangti a tìran nìk'ong tse'a nì'i'a.</span></li>
+                <li class="list-group-item">d) I completely agree. <span class="spoiler">Mllte nìwotx. (/ Mllte zam mì zam.)</span></li>
+                <li class="list-group-item last-item">e) She likes the book a lot. <span class="spoiler">Sunu poru puk nìtxan.</span></li>
+            </ul>
+
+            <h2 id="adpositions">12. Adpositions</h2>
+            <h4>12.1 Which of the following Adpositions cause lenition? Write your own example sentences with them.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-2">a) hu <span class="spoiler">causes no lenition</span></div>
+                    <div class="col-sm-2">b) sre <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-2">c) fa <span class="spoiler">doesn't caus lenition</span></div>
+                    <div class="col-sm-2">d) mì <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-4">e) ro <span class="spoiler">also causes lenition</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-2">f) maw <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-2">g) wä <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-2">h) eo <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-2">i) ìlä <span class="spoiler">causes lenition</span></div>
+                    <div class="col-sm-4">j) fpi <span class="spoiler">causes lenition</span></div>
+                </div></li>
+            </ul>
+
+            <h4>12.2 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Pesutehu nga plltxe? <span class="spoiler">With whom are you speaking?</span></li>
+                <li class="list-group-item">b) Awnga tswayon ikranfa ne kelku ngeyä na’rìngkxamlä. <span class="spoiler">We fly with ikrans through the forest to your house.</span></li>
+                <li class="list-group-item">c) Mì sawla kelutral Na’vi kelku si. <span class="spoiler">The Na'vi live in the big home tree.</span></li>
+                <li class="list-group-item">d) Ìlä sahìk po sop kelkune. <span class="spoiler">According to the Tsahìk he travels home.</span></li>
+                <li class="list-group-item">e) Ro fehilvan nga taron? <span class="spoiler">At which river do you hunt?</span></li>
+                <li class="list-group-item">f) Eo utral wem pohu oenga wä kutu. <span class="spoiler">We two fight in front of the tree against the enemy.</span></li>
+                <li class="list-group-item last-item">g) Oe uvan si hu hì’ia ioang ahona. <span class="spoiler">I play with a small cute animal.</span></li>
+            </ul>
+
+            <h4>12.3 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The hunter flies with his ikran. <span class="spoiler">Taronyu ikranfa peyä tswayon.</span></li>
+                <li class="list-group-item">b) I talk with you. <span class="spoiler">Ngahu plltxe oe.</span></li>
+                <li class="list-group-item">c) I come from a small village. <span class="spoiler">Ta tsray ahì'i za'u oe.</span></li>
+                <li class="list-group-item">d) The palulukan which lies under a tree looks tiredly at his friend who plays with a ball. <span class="spoiler">Palulukan a äu utral klltxay nìngeyn 'eylanur peyä a rumfa uvan si tìng nari.</span></li>
+                <li class="list-group-item last-item">e) The student learns in the forest with friends about plants. <span class="spoiler">Numeyu na'rìngmì nume teri ayewll eylanghu.</span></li>
+            </ul>
+
+            <h2 id="negation">13. Negation</h2>
+            <h4>13.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Ke rolun ngal poti kawtseng. <span class="spoiler">You didn't find him/her anywhere.</span></li>
+                <li class="list-group-item">b) Oe ke tsun yivom tsat. <span class="spoiler">I cannot eat that.</span></li>
+                <li class="list-group-item">c) Ke lu awngaru ‘rrta amuve. <span class="spoiler">We don't have a second earth.</span></li>
+                <li class="list-group-item">d) Ayioangur ke lu kea tsko. <span class="spoiler">The animals have no bow.</span></li>
+                <li class="list-group-item last-item">e) Kawkrr ke omum oel ke’ut kaw’it. <span class="spoiler">I don't know anything ever at all.</span></li>
+            </ul>
+            
+            <h4>13.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) He speaks with no one. <span class="spoiler">Kawtuhu po ke plltxe.</span></li>
+                <li class="list-group-item">b) I don’t clean my house today. <span class="spoiler">Laro ke si oe kelkuru oeyä fìtrr.</span></li>
+                <li class="list-group-item">c) We see nothing. <span class="spoiler">Ke tse'a awngal ke'ut.</span></li>
+                <li class="list-group-item">d) They haven’t eaten yet. <span class="spoiler">Ke li ke yom fo.</span></li>
+                <li class="list-group-item">e) Not everybody likes chocolate. <span class="spoiler">Ke fraporu ke sunu tsyoklìt.</span></li>
+                <li class="list-group-item">f) The nantang doesn’t hunt any longer. <span class="spoiler">Nantang ke taron nulkrr.</span></li>
+                <li class="list-group-item">g) The yerik doesn’t hunt at all. <span class="spoiler">Yerik ke taron kaw'it.</span></li>
+                <li class="list-group-item">h) Not everyone is here today. <span class="spoiler">Ke frapol ke tok fìtsengti.</span></li>
+                <li class="list-group-item">i) They don't like fish because it isn't tasty. <span class="spoiler">Ke sunu foru payoang taluna ke lu ftxìlor.</span></li>
+                <li class="list-group-item">j) I don't wait longer. <span class="spoiler">Oe ke pey nulkrr.</span></li>
+                <li class="list-group-item">k) No one helps the old man. <span class="spoiler">Koaktanur srung ke si kawtu.</span></li>
+                <li class="list-group-item last-item">l) The students are never lazy. <span class="spoiler">Kawkrr ke lu ngong aynumeyu.</span></li>
+            </ul>
+
+            <h2 id="futa">14. F-words</h2>
+            <h4>14.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Oe hum luke fwa po tseri. <span class="spoiler">I leave without him/her noticing.</span></li>
+                <li class="list-group-item">b) Omum oel futa ngaru sunu aysyulang atun. <span class="spoiler">I know that you like red flowers.</span></li>
+                <li class="list-group-item">c) New sa’nokìl futa ngal omum futa tsranten fwa nga yawne lu por. <span class="spoiler">The mother wants that you know that it is important that she loves you.</span></li>
+                <li class="list-group-item">d) Vingkap oeti fula ayfkxen lu ftxìlor nìtxan. <span class="spoiler">I occurs to me that vegetables are really tasty.</span></li>
+                <li class="list-group-item">e) Fì’upxare kangay si fura po za’u. <span class="spoiler">This message confirms that s/he will come.</span></li>
+                <li class="list-group-item">f) Fwa futa nga lu kanu fpìl oel ngaru sunu. <span class="spoiler">You like that I think that you are smart.</span></li>
+                <li class="list-group-item">g) Futa futa fwa inan ngaru sunu fpìl oel tslam ngal. <span class="spoiler">You understand that I think that you like to read.</span></li>
+                <li class="list-group-item last-item">h) Fula futa fwa fura taw lu ean nga law si oeru sunu ngal fpìl vingkap oeti. <span class="spoiler">It occurs to me that you think that I like that you make clear that the sky is blue.</span></li>
+            </ul>
+            
+            <h4>14.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I like that you help her. <span class="spoiler">Sunu oeru fwa nga poru srung si.</span></li>
+                <li class="list-group-item">b) I think that you are a good teacher. <span class="spoiler">Fpìl oel futa nga karyu asìltsan lu.</span></li>
+                <li class="list-group-item">c) To be a good hunter requires patience. <span class="spoiler">Fula slu taronyu asìltsan tìmweypeyti fngo'. </span></li>
+                <li class="list-group-item">d) That you leave destroys me. <span class="spoiler">Fula hum nga ska'a oeti.</span></li>
+                <li class="list-group-item">e) I want that you hunt a Yerik. <span class="spoiler">New oel futa ngal yerikit taron.</span></li>
+                <li class="list-group-item">f) I know that she likes fish. <span class="spoiler">Futa poru sunu payoang omum oel.</span></li>
+                <li class="list-group-item">g) That you teach us prepares us. <span class="spoiler">Fula ngal ayoeru kar hawl ayoeti.</span></li>
+                <li class="list-group-item">h) I think that she knows that he likes her. <span class="spoiler">Fpìl oel futa omum poel futa poanur sunu poe.</span></li>
+                <li class="list-group-item">i) To become a good hunter needs time. <span class="spoiler">Fwa slu taronyu asìltsan krrnekx.</span></li>
+                <li class="list-group-item last-item">j) I like to swim. <span class="spoiler">Sunu oeru fwa slele.</span></li>
+            </ul>
+
+            <h2 id="si">15. Modifying si-verbs</h2>
+            <h4>15.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Oe fìuvan alu monopoly si. <span class="spoiler">I play this game which is monopoly.</span></li>
+                <li class="list-group-item">b) Tsanumeyu kea tìkxey ke si. <span class="spoiler">That student doesn't make any mistakes.</span></li>
+                <li class="list-group-item">c) Po pxaya lie a eltur tìtxen si si. <span class="spoiler">S/he experienced a lot of interesting things.</span></li>
+                <li class="list-group-item">d) Awnga kekem ke si. <span class="spoiler">We do nothing.</span></li>
+                <li class="list-group-item last-item">e) Tseotu tskxeru narlora ‘on si. <span class="spoiler">The artist shapes the stone beautifully. / The artist gives the stone a beautiful shape.</span></li>
+            </ul>
+            
+            <h4>15.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) They often play beautiful music. <span class="spoiler">Fo (mik)lora pamtseo si pxìm.</span></li>
+                <li class="list-group-item">b) We play a game that I like. <span class="spoiler">Awnga uvan a sunu oeru si.</span></li>
+                <li class="list-group-item">c) He makes a good guess. <span class="spoiler">'en sìltsan si po.</span></li>
+                <li class="list-group-item last-item">d) The student makes these hard exercises. <span class="spoiler">Fayskxekeng angäzìk si numeyu.</span></li>
+            </ul>
+            
+            <h2 id="infixes">16. Infixes</h2>
+            <h4>16.1 Find the infix positions in the following verbs.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-3">a) plltxe (to speak) <span class="spoiler">p.lltx.e</span></div>
+                    <div class="col-sm-3">b) nìn (to look at) <span class="spoiler">n..ìn</span></div>
+                    <div class="col-sm-3">c) za’u (to come) <span class="spoiler">z.a'.u</span></div>
+                    <div class="col-sm-3">d) wrrza’u (to come out) <span class="spoiler">wrrz.a'.u</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-3">e) tslam (to understand) <span class="spoiler">tsl..am</span></div>
+                    <div class="col-sm-3">f) ‘ampi (to touch) <span class="spoiler">'.amp.i</span></div>
+                    <div class="col-sm-6">g) irayo si (to thank) <span class="spoiler">irayo s..i</span></div>
+                </div></li>
+            </ul>
+
+            <h4>16.2 Tense and aspect infixes - Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) We are reading a book. <span class="spoiler">Awngal pukit erinan.</span></li>
+                <li class="list-group-item">b) The dog ran through the forest. <span class="spoiler">Tolul/Tamul na'rìngkamlä nantangtsyìp.</span></li>
+                <li class="list-group-item">c) He will soon give you the tool that he just used. <span class="spoiler">Pol ngaru sä'ot a sìmar pol tìying.</span></li>
+                <li class="list-group-item">d) I certainly will clean my house. <span class="spoiler">Laro sasyi oe kelkuru oeyä.</span></li>
+                <li class="list-group-item">e) Yesterday I saw a animal that swam in the river. <span class="spoiler">Trram tse'a oel ioangit a slele kilvanmì.</span></li>
+                <li class="list-group-item last-item">f) Sadly he stopped to study the Na'vi language. <span class="spoiler">Nìkeftxo ftolang/ftamang ftivia lì'fyat pol.</span></li>
+            </ul>
+
+            <h4>16.3 Subjunctive - Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) May Eywa be with you. <span class="spoiler">Eywa (livu) ngahu.</span></li>
+                <li class="list-group-item">b) I want to sleep. <span class="spoiler">New hivahaw oe.</span></li>
+                <li class="list-group-item">c) Go to the village! <span class="spoiler">K(iv)ä tsrayne!</span></li>
+                <li class="list-group-item">d) I can continue to try to sing. <span class="spoiler">Tsun vivar fmivi rivol oe.</span></li>
+                <li class="list-group-item last-item">e) Give me that book! <span class="spoiler">Oeru t(iv)ìng pukit!</span></li>
+            </ul>
+
+            <h4>16.4 Participles - Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The learning student does this exercise. <span class="spoiler">Nusumea numeyu fìtskxekeng si.</span></li>
+                <li class="list-group-item">b) Talking animals are strange. <span class="spoiler">Ayioang apuslltxe hek.</span></li>
+                <li class="list-group-item">c) They see the hunted yerik which passes by the drinking bird. <span class="spoiler">Tse'a fol tawnarona yerikit a ftem yayoti anusäk.</span></li>
+                <li class="list-group-item">d) Sleeping is important. <span class="spoiler">Tsranten tìhusahaw.</span></li>
+                <li class="list-group-item">e) The cooked teylu are very tasty. <span class="spoiler">Ftxìlor nìtxan 'usema teylu lu.</span></li>
+                <li class="list-group-item last-item">f) The smiling person is kind. <span class="spoiler">Lrrtok-susia tute tstunwi lu.</span></li>
+            </ul>
+                
+            <h4>16.5 Causative and reflexive - Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I cause you to search for the yerik. <span class="spoiler">Oel ngaru/ngafa yerikit teykaron.</span></li>
+                <li class="list-group-item">b) The person who sings washes himself. <span class="spoiler">Tute a rol yäpur.</span></li>
+                <li class="list-group-item">c) You break the branch. <span class="spoiler">Vulit ngal kxeykakx.</span></li>
+                <li class="list-group-item">d) I am tired, but I cause myself to learn about the Na’vi language. <span class="spoiler">'efu ngeyn oe slä lì'fyari oe näpeykume.</span></li>
+                <li class="list-group-item last-item">e) We see each other every day. <span class="spoiler">Tsäpe'a fìtsap fratrr oeng.</span></li>
+            </ul>
+            
+            <h4>16.6 All infixes mixed up - Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Oeng mäpìsyeyeiam fìtsap! <span class="spoiler">We will definitely hug each other soon :D :)</span></li>
+                <li class="list-group-item">b) Aysawtute na’rìngti skalya’a. <span class="spoiler">The sky people will have destroyed the forest.</span></li>
+                <li class="list-group-item">c) Trray awngal kututi kalyureiakx. Foti heykum ko! <span class="spoiler">Tomorrow we will have driven out the enemies. Let's make them leave!</span></li>
+                <li class="list-group-item">d) Ke tsole’a oel kawkrr payoang a kxeykakx vulit. <span class="spoiler">I've never seen a fish that breaks a branch.</span></li>
+                <li class="list-group-item last-item">e) Fula ngaru set lereiu yawntu a poru nga ningay yawne lu oeti ‘eykefu nitram! <span class="spoiler">That you now have a beloved person who really loves you makes me feel happy! :)</span></li>
+            </ul>
+           
+            <h4>16.7 All infixes mixed up - Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) You made me think that riding an ikran is not fun (and I don’t like that). <span class="spoiler">Ngal oeru fpeykamängìl futa fwa makto ikranti ke lu 'o'.</span></li>
+                <li class="list-group-item">b) The howling nantangs will start to look at each other. <span class="spoiler">Aynantang arusonguway sngayä'i tsäpive'a fìtsap.</span></li>
+                <li class="list-group-item">c) The teacher will soon make the students understand that one has to learn often. <span class="spoiler">Karyul anumeyuru futa zene fko ftivia pxìm tsleykìyam.</span></li>
+                <li class="list-group-item">d) I will have visited my mother (and I like that). <span class="spoiler">Falyrrfeien sa'nokit oeye oel.</span></li>
+                <li class="list-group-item last-item">e) They were trying to make me like fish. <span class="spoiler">Fol payoangit fmalmi seykivunu oeru.</span></li>
+            </ul>
+            
+            <h4>16.8 Find the mistakes and correct the sentences.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Rusamikxa hì’ang <span class="spoiler">Rusikxa hì'ang <i>or</i> Hì'ang a ramikx</span></li>
+                <li class="list-group-item">b) Po tängaron. <span class="spoiler">Po tarängon.</span></li>
+                <li class="list-group-item">c) New nantang tivareion. <span class="spoiler">Neiew nantang tivaron.</span></li>
+                <li class="list-group-item">d) Oel pukit eraminan. <span class="spoiler">Tsranten tìhusahaw.</span></li>
+                <li class="list-group-item">e) Sngolä’i rivalpeng fìlì’ukìngit numeyu. <span class="spoiler">Sngolä'i ralpiveng fìlì'ukìngit numeyu.</span></li>
+                <li class="list-group-item last-item">f) New tsive’a oel ioangit. <span class="spoiler">New tsive'a oe ioangit.</span></li>
+            </ul>
+            
+            <h4>16.9 Find the root verb and translate what the verb with all the infixes means.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) täpeykiyeverkeiup <span class="spoiler">terkup - To may cause oneself to die in the future (positive mood) - causative, reflexive, subjunctive, future, positive mood</span></li>
+                <li class="list-group-item">b) täpalmarängon <span class="spoiler">taron - To have hunted oneself (negative mood) - reflexive, past, finished action, negative mood</span></li>
+                <li class="list-group-item">c) kxeykaryatsakx <span class="spoiler">kxakx - To apparently case something to be breaking in the future - causative, future, ongoing action, edidential</span></li>
+                <li class="list-group-item">d) tsäpirve’eia <span class="spoiler">tse'a - To may be seeing oneself :D - reflexive, ongoing action, subjunctive, positive mood</span></li>
+                <li class="list-group-item last-item">e) tireapeykimvängkxuyo <span class="spoiler">tireapängkxo - To may was causing someone to commute (spiritual context) - causative, subjuctive, past, ceremonial</span></li>
+            </ul>
+
+            <h2 id="conjunctions">17. Conjunctions</h2>
+            <h4>17.1 Fill the gaps with sì and ulte.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Oel tse’a ayioangit <span class="spoiler">sì</span> ewllit. <span class="spoiler">I see animals and plants.</span></li>
+                <li class="list-group-item">b) Pol ‘em ayfkxenit <span class="spoiler">ulte</span> nga yom. <span class="spoiler">S/he cooks vegetables and you eat.</span></li>
+                <li class="list-group-item">c) Oe ‘em <span class="spoiler">sì</span>yom. <span class="spoiler">I cook and eat.</span></li>
+                <li class="list-group-item">d) Nga lu sevin <span class="spoiler">sì</span> kanu. <span class="spoiler">You are pretty and smart.</span></li>
+                <li class="list-group-item last-item">e) New ‘evil nantangtsyìpit <span class="spoiler">sì</span> palulukantsyìpit <span class="spoiler">ulte</span> new oel ikranti <span class="spoiler">sì</span> torukit. <span class="spoiler">The child wants a nantang and a palulukan and I want an ikran and a toruk.</span></li>
+            </ul>
+
+            <h4>17.2 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Ngal ‘em wutsoti fte oe tsivun yivom. <span class="spoiler">You cook the meal so that I can eat.</span></li>
+                <li class="list-group-item">b) ’ul nga yom set nän nga ‘ìyefu ohakx fìtxon’ong. <span class="spoiler">The more you eat now the less you will feel hungry this nightfall.</span></li>
+                <li class="list-group-item">c) Zun oe tsivun tswivayon zel oe tsakem sivi fratrr. <span class="spoiler">If I could fly then I would always do that. </span></li>
+                <li class="list-group-item">d) Oel tspang wätuti fteke pol skiva’a kelutralti. <span class="spoiler">I kill the opponent so that s/he cannot destroy the hometree.</span></li>
+                <li class="list-group-item">e) Txo nga fìkem sivi, tsakrr oe hum. <span class="spoiler">If you do this, then I leave.</span></li>
+                <li class="list-group-item">f) Krra oel ngati tse’a oel ngaru pukit tìng. <span class="spoiler">When I see you I'll give you the book.</span></li>
+                <li class="list-group-item">g) Ngal yerikit taron fu srung si sa’nokur ngeyä. <span class="spoiler">You hunt the yerik or help your mother.</span></li>
+                <li class="list-group-item">h) Oeru sunu payoang takrra oel tsat molay’. <span class="spoiler">I like fish since I tried that.</span></li>
+                <li class="list-group-item">i) Srefwa oe hum, new pivlltxe. <span class="spoiler">I want to talk before I leave.</span></li>
+                <li class="list-group-item">j) Ke tslam oel teyngta pelun fìkem si po. <span class="spoiler">I don't understand why s/he did this.</span></li>
+                <li class="list-group-item last-item">k) Lì’fya leNa’vi lu ken’aw miklor släkop ‘o’. <span class="spoiler">The Na'vi language is not only beautiful (sounding) but also fun.</span></li>
+            </ul>
+            
+            <h4>17.3 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I want a dog and a cat and you want a fish or an insect. <span class="spoiler">New oel nantangtsyìpit sì palulukantsyìpit ulte ngal new payoangit fu hì'angit.</span></li>
+                <li class="list-group-item">b) If you see an animal, then hunt it. <span class="spoiler">Txo tsive'a ioangit ngal, tsakrr taron tsat.</span></li>
+                <li class="list-group-item">c) When you meet her, then greet her. <span class="spoiler">Krra ultxarun pot, tsakrr por kaltxì si.</span></li>
+                <li class="list-group-item">d) If I would be an ikran, then I would eat shoes. <span class="spoiler">Zu livu ikran oe zel yivom hawnventi oel.</span></li>
+                <li class="list-group-item">e) The more you read the more you learn. <span class="spoiler">'ul inan nga 'ul nume nga.</span></li>
+                <li class="list-group-item">f) Today I cook vegetables or fish. <span class="spoiler">'em fkxenit fu payoangit fìtrr oel.</span></li>
+                <li class="list-group-item">g) After I hunted the yerik, I cook the food. <span class="spoiler">'em syuveti oel mawkrra tolaron yerikit.</span></li>
+                <li class="list-group-item">h) I don't know if he is at home. <span class="spoiler">Ke omum oel tenygta ftxey pol kelkuti tok fuke.</span></li>
+                <li class="list-group-item">i) The Na’vi hunt because they need meat. <span class="spoiler">Taron Na'vi taluna kin tsnganti.</span></li>
+                <li class="list-group-item last-item">j) I read this writing in order to study the new words. <span class="spoiler">Fìpamrelti inan oel fte ftivia mipa aylì'ut.</span></li>
+            </ul>
+
+            <h2 id="topical">18. Topical</h2>
+            <h4>18.1 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Tsakemìri nolui po. <span class="spoiler">Regarding that, s/he failed.</span></li>
+                <li class="list-group-item">b) Oeri re’o tìsraw seri. <span class="spoiler">My head hurts.</span></li>
+                <li class="list-group-item">c) Fìuvanìri angäzìk zene kivanfpìl fko. <span class="spoiler">I have to concentrate on that hard game.</span></li>
+                <li class="list-group-item">d) Lì’fyari leNa’vi frapo a tsari tskxekeng si tsun tsan’ivul. <span class="spoiler">Everyone who practices it can become better at the Na'vi language.</span></li>
+                <li class="list-group-item last-item">e) Furia tsaskxawngìl tsngalti ngeyä skola’a oe tsap’alute si. <span class="spoiler">I apologize for that that idiot destroyed your cup.</span></li>
+            </ul>
+            
+            <h4>18.2 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) I thank you for your help. <span class="spoiler">Srungìri ngeyä oe ngaru irayo si.</span></li>
+                <li class="list-group-item">b) They learn Na’vi. <span class="spoiler">Lì'fyari fo nume.</span></li>
+                <li class="list-group-item">c) He agrees that learning a language takes a long time, but it is fun. <span class="spoiler">Furia fwa lì'fyari nume krrnekx po mllte, slä lu 'o' nìtxan.</span></li>
+                <li class="list-group-item">d) I am afraid of big dogs. <span class="spoiler">Nantangtsyìpìri atsawl oe txopu si.</span></li>
+                <li class="list-group-item last-item">e) It is hard to concentrate on the pronunciation while speaking. <span class="spoiler">Lu ngäzìk fwa lì'upamìri kanfpìl tengkrr perlltxe.</span></li>
+            </ul>
+
+            <h2 id="numbers">19. Numbers</h2>
+            <h4>19.1 Convert the following octal numbers into decimal ones.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) 144<sub>8</sub> <span class="spoiler">100<sub>10</sub></span></li>
+                <li class="list-group-item">b) 173<sub>8</sub> <span class="spoiler">123<sub>10</sub></span></li>
+                <li class="list-group-item">c) 52<sub>8</sub> <span class="spoiler">42<sub>10</sub></span></li>
+                <li class="list-group-item">d) 43<sub>8</sub> <span class="spoiler">35<sub>10</sub></span></li>
+                <li class="list-group-item last-item">e) 30<sub>8</sub> <span class="spoiler">24<sub>10</sub></span></li>
+            </ul>
+
+            <h4>19.2 Convert the following decimal numbers into octal ones.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) 64<sub>10</sub> <span class="spoiler">100<sub>8</sub></span></li>
+                <li class="list-group-item">b) 213<sub>10</sub> <span class="spoiler">325<sub>8</sub></span></li>
+                <li class="list-group-item">c) 167<sub>10</sub> <span class="spoiler">247<sub>8</sub></span></li>
+                <li class="list-group-item">d) 45<sub>10</sub> <span class="spoiler">55<sub>8</sub></span></li>
+                <li class="list-group-item last-item">e) 12<sub>10</sub> <span class="spoiler">14<sub>8</sub></span></li>
+            </ul>
+
+            <h4>19.3 Translate the following sentences to English.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Lu oeru wum tìpawm azazam. <span class="spoiler">I have about 4096 questions.</span></li>
+                <li class="list-group-item">b) Tsìvea tìrol solunu oeru frato. <span class="spoiler">I liked the fourth song the most.</span></li>
+                <li class="list-group-item">c) Pol kxututi avomun lolätxayn. <span class="spoiler">S/he defeated ten enemies.</span></li>
+                <li class="list-group-item">d) Tsasnanumultxafpi aynumeyu zene ivinan mevopeya pukit. <span class="spoiler">For that course the students have to read nineteen books.</span></li>
+                <li class="list-group-item last-item">e) Tì’eyng fraysìpawmä lu mrrvomun. <span class="spoiler">The answer to all questions is 42.</span></li>
+            </ul>
+            
+            <h4>19.4 Translate the following sentences to Na’vi.</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) She has sixteen plants in her house. <span class="spoiler">Lu poru 'ewll amevol kelkumì peyä.</span></li>
+                <li class="list-group-item">b) The group contains twenty-one hunters. <span class="spoiler">Pongul nga' taronyut amevomrr.</span></li>
+                <li class="list-group-item">c) These are only thirty-six gifts, but last year there were thirty-seven! <span class="spoiler">Tsaw nì'aw lu tsìvosìnga stxeli, slä zìsìtam lolu pum atsìvomrr!</span></li>
+                <li class="list-group-item">d) Seven books are enough. <span class="spoiler">Tam puk akinä.</span></li>
+                <li class="list-group-item last-item">e) I see fourteen yeriks which go into the forest to avoid the nine nantangs. <span class="spoiler">Tse'a oel yerikit avofu a kä na'rìngnemfa fte 'ivawnìm nantangit avolaw.</span></li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Language Chaos</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    </head>
+
+  <body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
+            <div class="sidebar-header">
+                <h3>Language Chaos</h3>
+            </div>
+            <div class=sidebar-content>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">German</a>
+                    <ul class="list-unstyled collapse" id="homeSubmenu" aria-expanded="false">
+                        <li>
+                            <a href="/german/tables">Helpful Overviews</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/german/pronunciation">Lesson 1: Pronunciation</a>
+                        </li>
+                        <li>
+                            <a href="/german/present">Lesson 2: Noun Gender & Verb Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/indefinite_article">Lesson 3: Indefinite Article & more Conjugation</a>
+                        </li>
+                        <li>
+                            <a href="/german/dative">Lesson 4: Dative, n-Declension & 2 more Verbs</a>
+                        </li>
+                        <li>
+                            <a href="/german/pronouns">Lesson 5: Pronouns</a>
+                        </li>
+                        <li>
+                            <a href="/german/plural">Lesson 6: Plural</a>
+                        </li>
+                        <li>
+                            <a href="/german/reflexive">Lesson 7: Reflexive</a>
+                        </li>
+                        <li>
+                            <a href="/german/adjectives">Lesson 8: Adjectives</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/german/conjunctions">Lesson 9: Conjunctions</a>
+                        </li>
+                        <li>
+                            <a href="/german/genitive">Lesson 10: Genitive</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Na'vi</a>
+                    <ul class="collapse list-unstyled in" aria-expanded="true" id="pageSubmenu">
+                        <li>
+                            <a href="">Introduction</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/first">Chapter 1 - Kaltxì!</a>
+                        </li>
+                        <li class="active"> 
+                            <a href="">Chapter 2 - Oel Ngati Kame</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/three">Chapter 3 - Peyralä Soaia</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/four">Chapter 4 - Oe, Nga, Po</a>
+                        </li>
+                        <li>
+                            <a href="/Na'vi/five">Chapter 5 - Fì'u sì Tsa'u</a>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <a href="/Na'vi/exercises">Exercises</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+            </ul>
+        </div> 
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <div id="content">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+
+        <div class="container-fluid">
+            <h3 class="title-page" style="margin-bottom:0px">Chapter 2 - Oel Ngati Kame</h3>
+            <p><b>Topics:</b> Simple sentences, transitive verbs vs. intransitive verbs, lu vs. tok</p>
+            <br>
+            <div class="container-fluid terms">
+                <p><b>(personal) Pronoun</b> - Words which refer to people/things without naming them directly, examples: I, you, he, she, it, ...</p>
+                <p><b>to conjugate</b> - Change the verb depending on the person, tense, …, examples: I eat, he eats, they ate</p>
+                <p><b>Article</b> - the, a, an</p>
+            </div>
+
+            <h2>Text</h2>
+            <div class="container-fluid">
+            <p style="margin-bottom: 0px">Peyralìl taron Yerikit. Pol ioangit nìn.<br><i>Peyral hunts a Yerik. She looks at the animal.</i></p>
+            <p style="margin-bottom: 0px">Yerik yom. Tsìk pamit Peyralìl stawm.<br><i>The Yerik eats. Suddenly Peyral hears a sound.</i></p>
+            <p style="margin-bottom: 0px">Lu Mokri! Yerikìl mokrit stawm nìteng.<br><i>There is a voice! The yerik hears the voice too.</i></p>
+            <p style="margin-bottom: 0px">Po tul. Peyral pey.<br><i>It runs. Peyral waits.</i></p>
+            <p>Taronyu za’u.<br><i>A hunter comes.</i></p>
+            
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Taronyu:</b></div>
+                    <div class="col-sm-11">Kaltxì ma ‘eylan! Oel ngati kame.<br><i>Hello friend! I see you.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Kame ngat. Skxawng! Set Yerik tul neto.<br><i>I see you. Moron! Now the Yerik runs away.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Taronyu:</b></div>
+                    <div class="col-sm-11">Ngaytxoa. Ninatit oel fwew.<br><i>Sorry. I search for Ninat.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Ninatìl tsrayti tok.<br><i>Ninat is in the village.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Taronyu:</b></div>
+                    <div class="col-sm-11">Irayo! Kìyevame.<br><i>Thanks! See you.</i></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-1"><b>Peyral:</b></div>
+                    <div class="col-sm-11">Kìyevame!<br><i>See you!</i></div>
+                </div>
+            </div>
+            <br>
+            <h2>Grammar</h2>
+            <h4>Simple Sentences</h4>
+            <p>Writing simple sentences with just one noun is as easy as it could be in Na’vi. Let’s take a look at some examples from the text:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Yerik yom.</b></div>
+                    <div class="col-sm-9"><b>The yerik eats.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyral pey.</b></div>
+                    <div class="col-sm-9"><b>Peyral waits.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Taronyu za'u.</b></div>
+                    <div class="col-sm-9"><b>A hunter comes.</b></div>
+                </div>
+            </div>
+
+            <p>If you search for those words in the dictionary, you’ll see that those sentences just use the plain verb, without any change. This also doesn’t change if you use other personal pronouns:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>yom</b></div>
+                    <div class="col-sm-9"><b>to eat</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">Oe yom. / Yom oe.</div>
+                    <div class="col-sm-9">I eat.</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">Nga yom. / Yom nga.</div>
+                    <div class="col-sm-9">You eat.</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">Po yom. / Yom po.</div>
+                    <div class="col-sm-9">He/She eats.</div>
+                </div>
+            </div>
+
+            <p>So while in English we have to conjugate the verb with the pronouns he/she/it, Na’vi doesn’t change the verb.</p>
+            <p>Let’s look again at those two sentences:</p>
+             
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Yerik yom.</b></div>
+                    <div class="col-sm-9"><b>The yerik eats.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Taronyu za'u.</b></div>
+                    <div class="col-sm-9"><b>A hunter comes.</b></div>
+                </div>
+            </div>
+
+            <p>In the first sentence, »Yerik« is translated as »the Yerik«, while »Taronyu« becomes »a hunter« in English. Na’vi doesn’t have articles, so a distinction between »a Yerik« and »the Yerik« is not possible directly. Which article is used in the translation is based on context. In sentences without context, sentences often can be translated in multiple ways, to keep it more simple, example sentences here only are translated in one of the many possible ways.</p>
+            <br>
+            <h4>l & t - Endings</h4>
+            <p>We learned in the first chapter that the word order is mostly free, and we learned in the last paragraph that verbs are not conjugated. So how does the Na’vi language show who does something and who is affected by an action?</p>
+            <p>The text has a lot of examples of how that works:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Peyralìl taron Yerikit.</b></div>
+                    <div class="col-sm-9"><b>Peyral hunts a Yerik.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Pol ioangit nìn.</b></div>
+                    <div class="col-sm-9"><b>She looks at the animal.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oel ngati kame.</b></div>
+                    <div class="col-sm-9"><b>I see you.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Tsìk pamit Peyralìl stawm.</b></div>
+                    <div class="col-sm-9"><b>Suddenly Peyral hears a sound.</b></div>
+                </div>
+            </div>
+
+            <p>The last sentence is especially interesting: Even though the word order is switched from an English point of view, in the translation it is still Peyral who hears something. So again, the word order doesn’t change the meaning:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>Pamit Peyralìl stawm. = Peyralìl pamit stawm. = Stawm pamit Peyralìl. = …</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>= Peyral hears a sound.</b></div>
+                </div>
+            </div>
+            
+            <p>The important thing here are the case endings which are attached to the nouns. »Peyral« becomes »Peyralìl«, and »pam« changes to »pamit«. Those two case endings, -l and -t, show who does the action and who is affected by it. Like the dative in the last chapter, those two case endings change depending on the noun’s last letter:</p>
+
+            <div class="container-fluid learning">
+                <div class="row dialog">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><b>After consonant:</b></div>
+                    <div class="col-sm-3"><b>After vowel:</b></div>
+                    <div class="col-sm-3"><b>After diphthong:</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>-l (Who is the doer?)</b></div>
+                    <div class="col-sm-3">-ìl</div>
+                    <div class="col-sm-3">-l</div>
+                    <div class="col-sm-3">-ìl</div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>-t (Who is affected?)</b></div>
+                    <div class="col-sm-3">-it/-ti</div>
+                    <div class="col-sm-3">-t(i)</div>
+                    <div class="col-sm-3">-it/-ti</div>
+                </div>
+            </div>
+
+            <p>Let’s again take a closer look at the effect of the case endings:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Po<font class ="marked">l</font> yerik<font class ="marked">it</font> taron.</b></div>
+                    <div class="col-sm-9"><b>He/She hunts the yerik.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Po<font class ="marked">t</font> yerik<font class ="marked">ìl</font> taron.</b></div>
+                    <div class="col-sm-9"><b>The yerik hunts him/her.</b></div>
+                </div>
+            </div>
+            <br>
+            <img style="width: 100%" src="../../images/yeriktaronlt-1200x244.jpg">
+            <p class="image_sub"><i><a href="https://numeko.info/">Image by EanaUnil</a></i></p>
+
+            <p>The word order doesn’t change, only the case endings show who hunts whom!</p>
+            <br>
+            <h4>Transitivity</h4>
+            <p>Na’vi distinguishes two classes of verbs: transitive and intransitive verbs (marked in dictionaries as vtr. and vin.). What that means is easier to understand when shown with some examples.</p>
+            <p>An action from a transitive verb has a target. You hunt an animal - The animal is the action’s target. You can draw something, hear something, watch something, all those verbs are transitive. But you cannot wait something, you can just wait for something. The action of waiting does not have a direct target, same for for example running and coming. Those verbs are intransitive.</p>
+            <p><b>Important:</b> -l & -t can only be used with transitive verbs! You will come across some verbs which seem to be clearly transitive in English, but are marked as vin. in the Na’vi dictionary. This is no mistake, but just a result of the fact that Na’vi and English are different languages and therefore not only use other words, but also different structures! In the following chapters you will learn how to deal with intransitive verbs. While learning vocabulary, it is always important to look up if a verb is intransitive or transitive and learn this information alongside the translation!</p>
+            <p>Also note that every transitive verb can be used intransitive, if the action does not have a target, then the -l ending is not needed:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe<font class ="marked">l</font> yerik<font class ="marked">it</font> taron.</b></div>
+                    <div class="col-sm-9"><b>I hunt the yerik.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">But: <b>Oe taron.</b></div>
+                    <div class="col-sm-9"><b>I hunt.</b></div>
+                </div>
+            </div>
+            <br>
+            <h4>lu vs. tok</h4>
+            <p>In English, »to be« is used for a lot of different stuff, for example to say that we are at a place. But the Na’vi use another verb for that context:</p>
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ninat<font class ="marked">ìl</font> tsray<font class ="marked">ti</font> tok.</b></div>
+                    <div class="col-sm-9"><b>Ninat is in the village.</b></div>
+                </div>
+            </div>
+            <p>For the local to be the Na’vi have a specific verb, »tok«, which, other than »lu«, is transitive and therefore needs -l & -t while lu is intransitive. A word like the English »in« in the example sentence is not needed here - it is already included in the meaning of tok. The difference between those two verbs becomes obvious if we compare them directly:</p>
+
+            <div class="container-fluid example">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ninat<font class ="marked">ìl</font> tsray<font class ="marked">ti</font> tok.</b></div>
+                    <div class="col-sm-9"><b>Ninat is in the village.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ninat tsray lu.</b></div>
+                    <div class="col-sm-9"><b>Ninat is a village.</b></div>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><img style="width: 75%" src="../../images/lu-300x277.jpg"></div>
+                    <div class="col-sm-3"><img style="width: 75%" src="../../images/tok-300x275.jpg"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+            <p class="image_sub"><i><a href="https://numeko.info/">Images by EanaUnil</a></i></p>
+            <br>
+
+            <h4>Summary</h4>
+            <p class="subsubtitle"><b>simple sentences</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Oe yom. / Yom oe.</b></div>
+                    <div class="col-sm-9"><b>I eat.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Nga yom. / Yom nga.</b></div>
+                    <div class="col-sm-9"><b>You eat.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Po yom. / Yom po.</b></div>
+                    <div class="col-sm-9"><b>He/She eats.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">-> No conjugation!</div>
+                    <div class="col-sm-9"></div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>l & t - case endings</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Po<font class ="marked">l</font> ioang<font class ="marked">it</font> taron.</b></div>
+                    <div class="col-sm-9"><b>She/He hunts the yerik.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Po<font class ="marked">t</font> ioang<font class ="marked">ìl</font> taron.</b></div>
+                    <div class="col-sm-9"><b>The animal hunts him/her.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3">But: <b>Po taron.</b></div>
+                    <div class="col-sm-9"><b>She/He hunts.</b></div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>Transitivity</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-12"><b>Transitive verbs:</b> vtr. in the dictionary, action has a target<br><b>Intransitive verbs:</b> vin. in the dictionary, action doesn’t have a direct target<br>-> Sometimes different from English, so transitivity should be learned for every verb!<br>-> -l & -t only with transitive verbs!</div>
+                </div>
+            </div>
+            <p class="subsubtitle"><b>tok vs. lu</b></p>
+            <div class="container-fluid summary">
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ninat<font class ="marked">ìl</font> tsray<font class ="marked">ti</font> tok.</b></div>
+                    <div class="col-sm-9"><b>Ninat is in the village.</b></div>
+                </div>
+                <div class="row dialog">
+                    <div class="col-sm-3"><b>Ninat tsray lu.</b></div>
+                    <div class="col-sm-9"><b>Ninat is a village.</b></div>
+                </div>
+            </div>
+            <br>
+            <h2>Exercises</h2>
+            <h4>1. Reading</h4>
+            <p>Read out aloud the dialog. Concentrate on pronouncing every word precisely, it is ok to be slow! If possible, search for someone on Discord to read together with you.</p>
+
+            <h4>2. Look up (for example with <a href="https://reykunyu.wimiso.nl/">Reykunyu</a>) which of the verbs you learned by now are transitive and which are intransitive. What does that mean for the usage of the verbs? The following verbs were used in this document by now:</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item"><div class="row">
+                    <div class="col-sm-2">fwew <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">kame <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">lu <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">nìn <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">yom <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">za'u <span class="spoiler">vin</span></div>
+                </div></li>
+                <li class="list-group-item last-item"><div class="row">
+                    <div class="col-sm-2">pey <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">stawm <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">tok <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">tul <span class="spoiler">vin</span></div>
+                    <div class="col-sm-2">tse'a <span class="spoiler">vtr</span></div>
+                    <div class="col-sm-2">taron <span class="spoiler">vtr</span></div>
+                </div></li>
+            </ul>
+
+            <h4>3. Fill in the gaps in the following sentences with -l, -t and -ru (Not every gap needs to be filled!):</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) Nga<span class="spoiler">l</span> ioang<span class="spoiler">it</span> taron<span class="spoiler">//</span>. <span class="spoiler">You hunt the animal. Alternative solution: <i>Ngat ioangìl taron.</i> - The animal hunts you.</span></li>
+                <li class="list-group-item">b) Po<span class="spoiler">ru</span> lu<span class="spoiler">//</span> fpom<span class="spoiler">//</span>. <span class="spoiler">He/She is fine.</span></li>
+                <li class="list-group-item">c) Peyral<span class="spoiler">//</span> pey<span class="spoiler">//</span>. <span class="spoiler">Peyral waits.</span></li>
+                <li class="list-group-item">d) Nga<span class="spoiler">l</span> tsray<span class="spoiler">ti</span> tok<span class="spoiler">//</span>. <span class="spoiler">You are in the village.</span></li>
+                <li class="list-group-item">e) Puk<span class="spoiler">it</span> nga<span class="spoiler">l</span> fwew<span class="spoiler">//</span>. <span class="spoiler">You search for the book.</span></li>
+                <li class="list-group-item">f) Po<span class="spoiler">//</span> skxawng<span class="spoiler">//</span> lu<span class="spoiler">//</span>. <span class="spoiler">He/She is a moron.</span></li>
+                <li class="list-group-item">g) mokri<span class="spoiler">t</span> stawm<span class="spoiler">//</span> oe<span class="spoiler">l</span>. <span class="spoiler">I hear a voice.</span></li>
+                <li class="list-group-item last-item">h) Tse'a<span class="spoiler">//</span> puk<span class="spoiler">it</span> oe<span class="spoiler">l</span>. <span class="spoiler">I see the book.</span></li>
+            </ul>
+
+            <h4>4. Translate the following sentences:</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item">a) The hunter hunts the animal. <span class="spoiler">Ioangti taronyul taron.</span></li>
+                <li class="list-group-item">b) The hunter hunts. <span class="spoiler">Taron taronyu.</span></li>
+                <li class="list-group-item">c) The animal hears the hunter. <span class="spoiler">Ioangìl taronyut stawm.</span></li>
+                <li class="list-group-item">d) The yerik is in the village.  <span class="spoiler">Tok tsrayti yerikìl.</span></li>
+                <li class="list-group-item">e) Thanks Peyral, until next time! <span class="spoiler">Irayo ma Peyral, hayalovay!</span></li>
+                <li class="list-group-item">f) Ninat looks at the ikran. <span class="spoiler">Ninatìl nìn ikranti</span></li>
+                <li class="list-group-item last-item">g) She runs. <span class="spoiler">Po tul.</span></li>
+            </ul>
+            <br>
+            <h2>Vocab</h2><div class="container-fluid summary">
+            <div class="vocab" style="-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;-webkit-column-gap: 20px;-moz-column-gap: 20px;column-gap: 20px;">
+                <p><b>fwew</b> (vtr.) [fwɛw] - to look for, to seek, to search for | <i>Oel Ninatit fwew. - I search for Ninat. | Ngati oel fwew. - I seek you.</i></p>
+                <p><b>irayo</b> (intj./n.) [i.ˈɾa.jo] - thank, thanks | <i>Irayo ma Peyral. - Thanks, Peyral.</i></p>
+                <p><b>kame</b> (vtr.) [ˈka.mɛ] - to see, to see into (spiritual sense) | <i>Oel ngati kame. - I see you.</i></p>
+                <p><b>mokri</b> (n.) [ˈmok.ɾi] - voice | <i>Lu mokri! - There is a voice! | Peyralìl mokrit stawm. - Peyral hears a voice.</i></p>
+                <p><b>neto</b> (adv.) [nɛ.ˈto] - away | <i>Yerik tul neto. - The yerik runs away.</i></p>
+                <p><b>nìn</b> (vtr.) [nɪn] - to look at | <i>Ngal ikranit nìn. - You look at an ikran.</i></p>
+                <p><b>nìteng</b> (adv.) [nɪ.ˈtɛŋ] - too, also, likewise | <i>Oel taronyut stawm niteng. - I hear the hunter too. | Tsrayti pol tok nìteng. - He/She is in the village too.</i></p>
+                <p><b>pam</b> (n.) [pam] - sound, noise | <i>Yerikìl pamit stawm. - The yerik hears a sound.</i></p>
+                <p><b>pey</b> (vin.) [pɛj] - to wait | <i>Peyral pey. - Peyral waits.</i></p>
+                <p><b>skxawng</b> (n.) [skʼawŋ] - moron, idiot | <i>Nga lu skxawng. - You are a moron.</i></p>
+                <p><b>stawm</b> (vtr.) [stawm] - to hear | <i>Yerikìl pamit stawm. - The yerik hears a sound. | Peyralìl mokrit stawm. - Peyral hears a voice.</i></p>
+                <p><b>taron</b> (vtr.) [ˈta.ɾon] - to hunt | <i>Oe taron. - I hunt | Yerikit taron Ninatìl. - Ninat hunts a yerik.</i></p>
+                <p><b>tok</b> (vtr.) [tok] - to be at, occupy a space | <i>Ninatìl tsrayti tok. - Ninat is in the village.</i></p>
+                <p><b>tse'a</b> (vtr.) [͡tsɛ.ˈʔa] - to see | <i>Oel yerikit tse’a. - I see the yerik.</i></p>
+                <p><b>tsìk</b> (adv.) [͡tsɪk] - suddenly, without warning | <i>Tsìk yerik tul neto. - Suddenly the yerik runs away.</i></p>
+                <p><b>tsray</b> (n.) [͡tsɾaj] - village | <i>Ninatìl tsrayti tok. - Ninat is in the village.</i></p>
+                <p><b>tul</b> (vin.) [tul] - to run | <i>Tsìk yerik tul neto. - Suddenly the yerik runs away.</i></p>
+                <p><b>yerik</b> (n.) [ˈjɛ.ɾik] - yerik, hexapede, deer-like Pandoran animal | <i>Tsìk yerik tul neto. - Suddenly the yerik runs away.</i></p>
+                <p><b>yom</b> (vtr.) [jom] - to eat | <i>Yerik yom. - The yerik eats. | Ikranìl yerikit yom. - The ikran eats the yerik.</i></p>
+                <p><b>za'u</b> (vin.) [ˈza.ʔu] - to come | <i>Taronyu kommt. - The hunter comes.</i></p>
+            </div></div>
+            <br>
+            <h2>Phrases</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item first-item last-item"><b>Oel ngati kame. / Kame ngat. /Oel ngati kameie.</b> - I see you. “I see inside you.” Greeting. <i>literally:</i> I see you spiritually.</li>
+            </ul>
+            <img style="width: 40%; display: block; margin-left: auto; margin-right: auto" src="../../images/oelngatikameie2-768x556.jpg">
+            <p class="image_sub"><i><a href="https://numeko.info/">Image by EanaUnil</a></i></p>
+        </div>
+    </div>
+</nav>
+</div>
+</div>  
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script src="../../js/script.js"></script>
+</body>
+</html>
