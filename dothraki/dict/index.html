@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <!-- My CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   
@@ -24,18 +24,18 @@
     <div class="wrapper">
         <!-- Sidebar -->
         <nav id="sidebar">
-            <img class="header-image" src="images/ritiformerveoverlayed.png">
+            <img class="header-image" src="../../images/ritiformerveoverlayed.png">
             <div class="sidebar-header">
                 <h3>Language Chaos</h3>
             </div>
             <div class=sidebar-content>
             <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="">Home</a>
+                <li>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">German</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <ul class="collapse list-unstyled" aria-expanded="true" id="homeSubmenu">
                         <li>
                             <a href="/german/tables">Helpful Overviews</a>
                         </li>
@@ -105,10 +105,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#DothrakiSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dothraki</a>
-                    <ul class="list-unstyled collapse" id="DothrakiSubmenu">
-                        <li>
-                            <a href="/dothraki/dict">Dictionary</a>
+                    <a href="#DothrakiSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Dothraki</a>
+                    <ul class="list-unstyled collapse in" aria-expanded="true" id="DothrakiSubmenu">
+                        <li class="active">
+                            <a href="">Dictionary</a>
                         </li>
                     </ul>
                 </li>
@@ -121,48 +121,46 @@
 
 
 
+
         <!-- Page Content -->
         <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-            
-                    <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-            
-                    <div class="container-fluid">
-                        <h3 class="title-page">Welcome to Language Chaos!</h3>
-                        <p>This page is highly work in progress, nothing is finished, but maybe you'll find something useful here anyway :D</p>
-                        
-                        <h2>What is this website for?</h2>
-                        <p>This website will be a collection of my projects which are related with languages and language learning, for example:</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item first-item">- Course materials for my german course</li>
-                            <li class="list-group-item">- My Na'vi language course</li>
-                            <li class="list-group-item">- My Na'vi 100 days challenge & Exercise book</li>
-                            <li class="list-group-item">- My Dothraki dictionary</li>
-                            <li class="list-group-item last-item">- Much more is planned - for example an overview of HSK1 Mandarin Chinese vocab with some mnemonic tricks, my Na'vi verb usage dictionary, italian tenses, ...</li>
-                          </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>  
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="sidebar()">
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+        </button>
+        <div class="container-fluid">
+        <h3 class="title-page">Dothraki Dictionary</h3>
+        <div class="alert alert-warning" role="alert">
+            <b>Warning:</b> This project is highly work in progress. Most planned features, like parsing of inflected forms, are not working yet, and the things that are already there might have some bugs. If you find something that seems to be not working right, or if you just have some ideas on how to improve it/which features you would like this dictionary to have, feel free to <a href="/about/#contact">contact me</a>! Thanks to all the people from the The Languages of Ice anf Fire Community <a href="https://discord.gg/TYpYGHNZCy">Discord server</a> for being so patient with all my stupid questions, make sure to also take a look at the <a href="https://wiki.languageinvention.com/index.php?title=Dothraki_language">wiki</a> if you wanna learn more about the Dothraki language!
+          </div>
+        <input type="search" class="form-control" id="enterWord" placeholder="Enter word" onkeydown="inputSubmit(this)">
+        <small id="wordHelp" class="form-text text-muted">Enter a dothraki or English word. Since this in an early version, Dothraki words have to be in the dictionary form, but I'm working on getting parsing of inflected words to work!</small>
+        
+        <div id="results"></div>
+        
+    </div>
+</div>
+</nav>
+</div>
+</div>  
 
 
 
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- jQuery Custom Scroller CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-
-    <script src="js/script.js"></script>
-  </body>
+<script src="../../js/script.js"></script>
+<script src="../../js/dict.js"></script>
+<script src="create-json.js"></script>
+</body>
 </html>

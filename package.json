@@ -1,0 +1,19 @@
+{
+  "name": "languagechaos",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kxitx/languagechaos.git"
+  },
+  "author": "Tekre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kxitx/languagechaos/issues"
+  },
+  "homepage": "https://github.com/Kxitx/languagechaos#readme"
+}

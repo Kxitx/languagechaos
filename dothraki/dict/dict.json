@@ -1,0 +1,209 @@
+{
+	"acchakat": {
+		"dothraki": "acchakat",
+		"english": [{
+			"type": "vtr.",
+			"english": "to silence"
+		}],
+		"pronunciation": "[attʃaˈkat]",
+		"forms": {
+            "pastSG" : "acchak"
+		},
+		"examples": [{
+			"dothraki": "Me vastoe hatif anni; ahhazaan yer nemo vacchaki.",
+			"english": "She will speak before me; until then you will keep yourself quiet."
+		}]
+	},
+	"acchorkat": {
+		"dothraki": "acchorkat",
+		"english": [{
+			"type": "vtr.",
+			"english": "to roll"
+		}],
+		"pronunciation": "[attʃoɾˈkat]",
+		"examples": [{
+			"dothraki": "Che hash me vacchorka mae ki janeti majin me anokitta mae ki hrazefi.",
+			"english": "Or roll them in a rug and trample them with a horse."
+		}],
+		"source": "https://dedalvs.tumblr.com/post/144459011173/dothraki-and-valyrian-dialogue-episode-604-of"
+	},
+	"achra": {
+		"dothraki": "achra",
+		"english": [{
+			"type": "adj.",
+			"english": "smelly"
+		}],
+		"pronunciation": "[ˈatʃɾa]"
+	},
+	"achrakh": {
+		"dothraki": "achrakh",
+		"english": [{
+			"type": "ni.",
+			"english": "smell"
+		},
+		{
+			"type": "ni.",
+			"english": "stink"
+		}],
+		"pronunciation": "[atʃˈɾax]",
+		"source": "https://twitter.com/Dedalvs/status/297060659315748864"
+	},
+	  "achralat": {
+		"dothraki": "achralat",
+		"english": [{
+			"type": "v.",
+			"english": "to be smelly, to give of a smell"
+		}],
+		"pronunciation": "[atʃɾaˈlat]",
+		"forms": {
+            "pastSG": "achra"
+		},
+		"source": "http://www.dothraki.com/2012/04/valshe-vinesera/"
+	},
+    "adakhat": {
+		"dothraki": "adakhat",
+		"english": [{
+			"type": "v.",
+			"english": "to eat"
+		}],
+		"pronunciation": "[adaˈxat]",
+        "examples": [{
+			"dothraki": "Khaleesi zala meme adakha esinakh ajjalan.",
+			"english": "The khaleesi wants to eat something different tonight."
+		}],
+		"forms": {
+            "pastSG": "adakh"
+		},
+		"source": "http://www.dothraki.com/2012/04/valshe-vinesera/"
+	},
+    "adakhilat": {
+		"dothraki": "adakhilat",
+		"english": [{
+			"type": "v.",
+			"english": "to nibble"
+		}],
+		"pronunciation": "[adaxiˈlat]",
+        "examples": [{
+			"dothraki": "Inte vadakhie tihoa.",
+			"english": "The beetles will feed on your eyes."
+		}],
+		"forms": {
+            "pastSG": "adakhi"
+		}
+	},
+    "addakhat": {
+		"dothraki": "addakhat",
+		"english": [{
+			"type": "vtr.",
+			"english": "to feed someone/something"
+		}],
+		"pronunciation": "[addaˈxat]"
+	},
+    "addiwelat": {
+		"dothraki": "addiwelat",
+		"english": [{
+			"type": "vtr.",
+			"english": "to moisten"
+		}],
+		"pronunciation": "[addiweˈlat]",
+        "examples": [{
+			"dothraki": "Shafka laz addiwee khirrof anni.",
+			"english": "You can suck my dick."
+		}],
+		"source": "https://dedalvs.tumblr.com/post/144459011173/dothraki-and-valyrian-dialogue-episode-604-of"
+	},
+    "addo ajjalani": {
+		"dothraki": "addo ajjalani",
+		"english": [{
+			"type": "n.",
+			"english": "midnight"
+		}],
+		"pronunciation": "[ˈaddo ˈaddʒalani]",
+		"source": "https://twitter.com/Dedalvs/status/5886396753514496"
+	},
+    "adra": {
+		"dothraki": "adra",
+		"english": [{
+			"type": "na.",
+			"english": "turtle"
+		}],
+		"pronunciation": "[ˈadɾa]",
+		"source": "http://www.dothraki.com/2011/10/relative-clauses-in-dothraki/"
+	},
+    "aheshke": {
+		"dothraki": "aheshke",
+		"english": [{
+			"type": "ni.",
+			"english": "winter"
+		}],
+		"pronunciation": "[aˈheʃke]",
+		"forms": {
+            "accusative": "aheshk"
+		},
+        "source": "http://www.dothraki.com/2012/01/and-a-happy-goat-year/"
+	},
+    "alegra": {
+		"dothraki": "alegra",
+		"english": [{
+			"type": "ni.",
+			"english": "duck"
+		}],
+		"pronunciation": "['alegɾa]",
+		"forms": {
+            "accusative": "alegre"
+		},
+        "source": "http://www.dothraki.com/2011/05/game-of-thrones-episode-3-comments/"
+	},
+	"eth": {
+		"dothraki": "eth",
+		"english": [{
+			"type": "v. aux.",
+			"english": "must, have to"
+		}],
+		"pronunciation": "[eθ]"
+	},
+	"lekh": {
+		"dothraki": "lekh",
+		"english": [{
+			"type": "na.",
+			"english": "language"
+		},
+		{
+			"type": "ni.",
+			"english": "tongue"
+		}],
+		"pronunciation": "[lex]"
+	},
+	"lenta": {
+		"dothraki": "lenta",
+		"english": [{
+			"type": "ni.",
+			"english": "neck, stem"
+		},
+		{
+			"type": "n.",
+			"english": "tree trunk"
+		}],
+		"pronunciation": "[ˈlenta]"
+	},
+	"masar": {
+		"dothraki": "masar",
+		"english": [{
+			"type": "n.",
+			"english": "treasure"
+		}],
+		"pronunciation": "[masar]"
+	},
+    "vachrarat": {
+		"dothraki": "vachrarat",
+		"english": [{
+			"type": "vin.",
+			"english": "to stink"
+		}],
+        "examples": [{
+			"dothraki": "Yesisi vachrari.",
+			"english": "The old women stink."
+		}],
+		"pronunciation": "[vat͡ʃɾaˈɾat]"
+	}
+}
